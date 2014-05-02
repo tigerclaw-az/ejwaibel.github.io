@@ -1,15 +1,755 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>Github - Erik Waibel</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<head>
+<meta charset="utf-8">
 
-		<!-- <link rel="shortcut icon" href="favicon.png"> -->
-		<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-	</head>
-	<body>
-		<h1>Erik Waibel</h1>
-	</body>
+<title>Erik Waibel | Software Engineer II, Web Developer</title>
+<style type="text/css">
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0;
+}
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+h6 {
+  font-size: 0.75em;
+  margin: 2.33em 0;
+}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+b,
+strong {
+  font-weight: bold;
+}
+blockquote {
+  margin: 1em 40px;
+}
+dfn {
+  font-style: italic;
+}
+mark {
+  background: #ff0;
+  color: #000;
+}
+p,
+pre {
+  margin: 1em 0;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+q {
+  quotes: none;
+}
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+small {
+  font-size: 75%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+dd {
+  margin: 0 0 0 40px;
+}
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 0;
+}
+form {
+  margin: 0;
+}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+}
+button,
+input {
+  line-height: normal;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+  *overflow: visible;
+}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font: 12px normal 'Hoefler Text', Times New Roman, Times, serif;
+  color: #444;
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: whiteSmoke;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+a[href$='.pdf'] {
+  background: #666;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+}
+a[href*='github'] {
+  background: #000;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  position: absolute;
+  top: 45px;
+  right: 25px;
+}
+a[href*='github']:hover {
+  background: white;
+  color: #000;
+}
+p {
+  font-size: 1.2em;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+}
+blockquote a {
+  color: #990003;
+  display: block;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  font-style: italic;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  margin: 0;
+  padding: .25em 0 .25em .3em;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: normal;
+  border-bottom: 5px solid rgba(0,0,0,0.8);
+}
+h3+p,
+h3~ul {
+  margin: .2em 0 1.2em;
+  padding: 0;
+  display: block;
+  line-height: 24px;
+}
+h3~ul {
+  padding-left: 1.5em;
+}
+h4 {
+  font-size: 1.5em;
+}
+#experience ~ dl dt {
+  float: left;
+}
+#experience ~ dl dd {
+  float: right;
+  width: 35%;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+}
+ul li ul li {
+  font-size: 1em;
+  font-style: italic;
+  margin: 0 0 0 1.5em;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dt {
+  font-size: 1em;
+}
+ul dl dd {
+  margin: 0 0 1em;
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  list-style: none;
+  line-height: 2em;
+  font-size: 1.1em;
+}
+ol li:nth-child(1) {
+  border-top: none;
+}
+dl {
+  display: inline-block;
+  width: 90%;
+  margin: 0;
+  padding: 0;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+}
+dl dd {
+  padding: 0;
+  font-size: 0.8em;
+}
+dl strong {
+  display: block;
+  font-size: 1.2em;
+}
+dl em {
+  display: block;
+  font-size: 1.2em;
+  margin: .15em 0 .5em;
+}
+#footer {
+  display: none;
+}
+#footer + p {
+  width: 100%;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+body.pdf {
+  color: black;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: none;
+  border-width: 8px 0 2px 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 40px 80px;
+}
+body.pdf a[href$='.pdf'] {
+  display: none;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf h3 {
+  float: left;
+  width: 16%;
+  font-style: normal;
+}
+body.pdf h3+p {
+  float: left;
+  width: 84%;
+}
+body.pdf blockquote {
+  top: 40px;
+  right: 50px;
+  position: absolute;
+}
+body.pdf ul {
+  list-style: none;
+}
+body.pdf ul li {
+  width: 28%;
+  float: left;
+}
+body.pdf ul dl {
+  margin: 0;
+  padding: 0.3em 0 0;
+}
+body.pdf ul dl dt {
+  font-size: 122%;
+  font-weight: normal;
+  margin: 0 0 .75em;
+}
+body.pdf ul dl dd {
+  padding: 0 4em 0 0;
+}
+body.pdf ol {
+  float: left;
+  width: 84%;
+  margin: .7em 0 0;
+}
+body.pdf ol li {
+  width: 33%;
+  margin: 0;
+}
+body.pdf ol li:nth-child(3n) {
+  width: 34%;
+}
+body.pdf ol li:nth-child(1),
+body.pdf ol li:nth-child(2),
+body.pdf ol li:nth-child(3) {
+  border-top: none;
+}
+body.pdf dl {
+  margin: .7em 0 0;
+  page-break-inside: avoid !important;
+  display: block;
+  width: 84%;
+  float: left;
+}
+body.pdf dl strong {
+  float: right;
+  margin-top: -2em;
+}
+body.pdf dl em {
+  font-size: 130%;
+  font-style: normal;
+}
+
+</style>
+</head>
+
+<body class="">
+
+<div class="container">
+	<header></header>
+    <div class="resume">
+        <h1>Erik Waibel</h1>
+
+<h2>Software Engineer II, Web Developer</h2>
+
+<blockquote>
+  <p><a href="resume.pdf">Download PDF</a>
+  <a href="http://www.github.com/ejwaibel">GitHub Profile</a>
+  <a href="ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a></p>
+</blockquote>
+
+<hr />
+
+<h3 id="summary">tl;dr</h3>
+
+<p>Seasoned software developer focused on developing for the web using JavaScript, HTML5, CSS3, and PHP or NodeJS. Exceptional problem-solver with a think outside the box mentality. Focused on other people and being of true help and service to them.  Broad skill set with 12 years of software development experience and 7 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long term sustainable solution instead of a temporary fix.</p>
+
+<hr />
+
+<h3 id="skills">Technical Skills</h3>
+
+<ul>
+<li>Expert knowledge of XHTML/HTML5, CSS/CSS3, HTML theming, JavaScript, jQuery, Object Oriented PHP, NodeJS, RESTful Web Services, SOAP, and XHR/AJAX</li>
+<li>Expert knowledge of source control tools: IBM Rational ClearCase, Subversion, and Git</li>
+<li>Knowledge of cross-browser compatibility issues and solutions</li>
+<li>Advanced knowledge of Web development industry standards</li>
+<li>Advanced script development using Perl, bash, ksh, and batch</li>
+<li>Intermediate knowledge of underlying WordPress functionality and theme templating</li>
+</ul>
+
+<hr />
+
+<h3 id="experience">Experience</h3>
+
+<dl>
+<dt><h4>iTRACS / Commscope</h4></dt>
+<dd>
+<p><em>Software Engineer II</em>
+<strong>Nov. 2012-Present</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution.</li>
+<li>Lead developer for design and implementation of custom developer portal within WordPress.</li>
+<li>Automated custom web application build and deployment using Grunt.</li>
+<li>Implement custom web portal in WordPress for SalesForce integration.</li>
+<li>Create and deploy advanced RESTful API interfaces with PHP5 and SOAP.</li>
+<li>Develop robust, scalable and extendable JavaScript.</li>
+<li>Convert raw images and layouts from a graphic designer into CSS/HTML5 themes utilizing mustache.js</li>
+<li>Research advanced HTML5 and JavaScript techniques and implement the latest browser technology.</li>
+<li>Resolve QA and customer submitted defects within the web application.</li>
+<li>Perform Git operations within a development and production environment.</li>
+<li>Deploy and install GitLab upgrades on a monthly basis.</li>
+<li>Manage and complete tasks timely in a Scrum managed development process.</li>
+<li>Collaborate with Quality Assurance in review of test plans and transferring unit test into automation.</li>
+<li>Collaborate with team members to ensure implementation of features/functionality conform to release/business objectives.</li>
+</ul>
+
+<dl>
+<dt><h4>Art Institute of Phoenix</h4></dt>
+<dd>
+<p><em>Adjunct Professor - Graphic &amp; Web Design</em>
+<strong>Sept. 2010-Present</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li><em>Intro to Programming</em>: Requires teaching the fundamentals of programming logic.</li>
+<li><em>Intro/Intermediate/Advanced Scripting</em>: Requires teaching the following skills: HTML/XHTML, HTML5, and CSS3.</li>
+<li><em>Intro/Intermediate/Advanced Authoring</em>: Requires teaching the following skills: JavaScript, jQuery, and PHP with MySQL.</li>
+<li><em>User Centered Design</em>: Requires teaching the fundamentals of UX and how to build websites with the user in mind.</li>
+</ul>
+
+<dl>
+<dt><h4>Everything Just Works, LLC</h4></dt>
+<dd>
+<p><em>Owner, Software Developer</em>
+<strong>May 2010 - Dec. 2013</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Built custom website for Realty Company that would allow users to search for houses based on a given MLS listing.
+
+<ul>
+<li>Object Oriented PHP from scratch with IIS 7.5 and Microsoft SQL 2008 database integration.</li>
+<li>Custom JavaScript with Google Maps API for calculating distances between multiple addresses.</li>
+<li>Custom jQuery for generating tables with calculated data along with jQuery UI effects.</li>
+<li>Integrated local Subversion install with Eclipse for easy source control management.</li>
+<li>Developed the “Conditional Questions” add-on using PHP &amp; jQuery for the Event Espresso WordPress plugin.</li>
+</ul></li>
+<li>Diagnosed and repaired local and small business websites that use WordPress.</li>
+<li>Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) or client requests.</li>
+<li>Provided computer repair for individual customers and small businesses with 5 to 20 employees.</li>
+<li>Eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.</li>
+</ul>
+
+<dl>
+<dt><h4>Insight Global</h4></dt>
+<dd>
+<p><em>Software Developer, Contract w/Level 3 Communications</em>
+<strong>July 2012 - Oct. 2012</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Developed the internal website on Apache server for network planners using Perl Mason, HTML5, JavaScript, jQuery, and CSS3.</li>
+<li>Wrote custom JavaScript &amp; jQuery for dynamic table generation using the DataTables plugin along with dynamic graphs using jqPlot.</li>
+<li>Configured and administered Bugzilla installation on Linux CentOS server for customer required bug tracking system.</li>
+<li>Customized Bugzilla templates in order to meet additional client requirements.</li>
+<li>Assessed current Perl code and influenced new programming standards and modules based on my conclusions.</li>
+<li>Provided multiple Perl script reports that would run on a daily/weekly cron job and generate custom Excel spreadsheets for client.</li>
+<li>Created custom internal Perl modules to help with database connections, common utility functions, and Excel spreadsheet customization.</li>
+<li>Documented all code and followed documentation standards for JavaScript and Perl.</li>
+</ul>
+
+<dl>
+<dt><h4>APEX Systems</h4></dt>
+<dd>
+<p><em>Systems Engineer, Contract w/Wells Fargo</em>
+<strong>Oct. 2011 - June 2012</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Developed Perl script that would run as a daemon to search specific directories for files. The script used an XML configuration file to determine which paths to search and could also be used to find files that are older than a specified amount of time.</li>
+<li>Installed CPAN modules to help with Perl automation, including, but not limited to: Log::Log4Perl, Net::SSH, XML::Simple, MIME::Lite, Getopt::Long, MIME::Base64, forks, Expect. This saved hours of development time by not “reinventing the wheel.”</li>
+<li>Customized in-house OO Perl modules for better functionality and maintainability. Scripts were required to parse XML &amp; configuration files, generate reports based on user input, etc.</li>
+<li>Expanded Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.</li>
+<li>Enhanced current scripts to include the use of Log::Log4Perl in order to generate log files for all output in order to verify steps were completed successfully.</li>
+<li>Configured “Eclipse for Perl” IDE to develop Perl scripts and modules along with Cygwin to deploy scripts to our development server for testing.</li>
+<li>Migrated source code from ClearCase to Subversion and implemented development &amp; release process.</li>
+<li>Completed 2 month long task to implement a new testing environment between 2 UNIX Solaris servers. The environment had to mimic a currently configured testing environment, but there was little to no documentation for the already configured servers.</li>
+<li>Simplified the assignment of duties to production support members by creating a Microsoft Access database for management to assign tasks efficiently.</li>
+<li>Provided multi-level support to the Customer Care team and employees that worked directly with Wells Fargo Wholesale customers.</li>
+</ul>
+
+<dl>
+<dt><h4>A Better Solution, Inc.</h4></dt>
+<dd>
+<p><em>Software Developer, ClearCase Consultant</em>
+<strong>Apr. 2007 - June 2011</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Worked in a ClearCase/UCM environment to version control software on UNIX.</li>
+<li>Implemented Perl scripts to help developers integrate with ClearCase more seamlessly.</li>
+<li>Developed Perl modules for custom ClearCase functionality within our scripts. This allowed to easily and quickly building Perl scripts for custom ClearCase interaction.</li>
+<li>Ensured project builds and releases performed efficiently and correctly through the use of IBM Rational BuildForge.</li>
+<li>Produced automated build scripts using Perl and shell programming.</li>
+<li>Generated customized and ad hoc end user reports as requested by management.</li>
+<li>Administered UNIX &amp; Windows machines for the IT group whenever necessary.</li>
+<li>Logged incoming work-orders for desktop and/or application support assistance &amp; assigned tickets and support technician based on issue type. Regularly checked progress of assigned work-orders and provided follow up as appropriate.</li>
+<li>Provided first level technical assistance to end users including, but not limited to: replicating errors, resolving application issues, and investigating errors.</li>
+<li>Created an XSL file that successfully translated XML files into a styled webpage using CSS.</li>
+</ul>
+
+<dl>
+<dt><h4>BlueHornet.com</h4></dt>
+<dd>
+<p><em>Jr. Software Developer</em>
+<strong>Sept. 2006 - Apr. 2007</strong></p>
+</dd>
+</dl>
+
+<ul>
+<li>Enhanced current PHP web application with custom Object Oriented code for quicker development and easier maintainability.</li>
+<li>Produced new application feature that gave customers the capability of saving custom “email groups” for their email campaigns.</li>
+<li>Coordinated with project management and gave status updates bi-weekly until the project manager and customer were satisfied.</li>
+<li>Resolved customer submitted defects within the application and extended the application functionality with new feature requests.</li>
+<li>Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS.</li>
+<li>Performed CVS functions to keep source version controlled and better coordination between development team.</li>
+<li>Created SQL queries with Oracle database to retrieve, store, or delete necessary records.</li>
+<li>Resolved database issues with customer support after a duplicate email campaign was processed incorrectly.</li>
+<li>Documented new features thoroughly for use with customer support documentation.</li>
+</ul>
+
+<hr />
+
+<h3>Education</h3>
+
+<dl>
+<dt><h4>California State Polytechnic University</h4></dt>
+<dd>
+<p><em>Pomona, CA</em>
+<strong>B.S., Computer Science</strong></p>
+</dd>
+</dl>
+
+<hr />
+
+<h3 id="footer">Footer</h3>
+
+<p>Erik Waibel &#8212; <a href="ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a></p>
+
+<hr />
+
+    </div>
+    <footer></footer>
+</div>
+
+</body>
 </html>
