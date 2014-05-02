@@ -30,13 +30,15 @@ Seasoned software developer focused on developing for the web using JavaScript, 
 : *Software Engineer II*
   __Nov. 2012-Present__
 
-* Responsible for the design and implementation of an enterprise class web application providing business critical datacenter management solution.
-* Design and develop advanced RESTful API interfaces with PHP5 and SOAP.
+* Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution.
+* Lead developer for design and implementation of custom developer portal within WordPress.
+* Automated custom web application build and deployment using Grunt.
+* Implement custom web portal in WordPress for SalesForce integration.
+* Create and deploy advanced RESTful API interfaces with PHP5 and SOAP.
 * Develop robust, scalable and extendable JavaScript.
-* Extend and build advanced custom jQuery UI widgets.
 * Convert raw images and layouts from a graphic designer into CSS/HTML5 themes utilizing mustache.js
 * Research advanced HTML5 and JavaScript techniques and implement the latest browser technology.
-* Resolve customer submitted defects within the web application.
+* Resolve QA and customer submitted defects within the web application.
 * Perform Git operations within a development and production environment.
 * Deploy and install GitLab upgrades on a monthly basis.
 * Manage and complete tasks timely in a Scrum managed development process.
