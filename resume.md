@@ -9,17 +9,19 @@
 
 ### tl;dr {#summary}
 
-Seasoned software developer focused on developing for the web using JavaScript, HTML5, CSS3, and PHP or NodeJS. Exceptional problem-solver with a think outside the box mentality. Focused on other people and being of true help and service to them.  Broad skill set with 12 years of software development experience and 7 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long term sustainable solution instead of a temporary fix.
+Highly motivated seasoned software developer focused on developing for the web using JavaScript, HTML5, CSS3, and PHP / NodeJS. High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. Focused on other people and being of true help and service to them.  Broad skill set with 12 years of software development experience and 7 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long term sustainable solution instead of a temporary fix. Humility. Respect. Trust.
 
 ------
 
 ### Technical Skills {#skills}
 
-* Expert knowledge of XHTML/HTML5, CSS/CSS3, HTML theming, JavaScript, jQuery, Object Oriented PHP, NodeJS, RESTful Web Services, SOAP, and XHR/AJAX
-* Expert knowledge of source control tools: IBM Rational ClearCase, Subversion, and Git
+* Expert knowledge of XHTML/HTML5, CSS/CSS3, HTML theming, JavaScript, jQuery, jQuery UI, Object Oriented PHP, NodeJS, RESTful Web Services, SOAP, and XHR/AJAX
+* Comfortable writing raw JavaScript, without the use of libraries or 3rd party tools.
+* Experience with LESS, Grunt, Yeoman
 * Knowledge of cross-browser compatibility issues and solutions
 * Advanced knowledge of Web development industry standards
 * Advanced script development using Perl, bash, ksh, and batch
+* Expert knowledge of source control tools: IBM Rational ClearCase, Subversion, and Git
 * Intermediate knowledge of underlying WordPress functionality and theme templating
 
 ------
@@ -31,19 +33,17 @@ Seasoned software developer focused on developing for the web using JavaScript, 
   __Nov. 2012-Present__
 
 * Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution.
-* Lead developer for design and implementation of custom developer portal within WordPress.
-* Automated custom web application build and deployment using Grunt.
-* Implement custom web portal in WordPress for SalesForce integration.
-* Create and deploy advanced RESTful API interfaces with PHP5 and SOAP.
-* Develop robust, scalable and extendable JavaScript.
-* Convert raw images and layouts from a graphic designer into CSS/HTML5 themes utilizing mustache.js
+* Engineer robust, scalable and extendable JavaScript.
+* Create and deploy advanced RESTful API interfaces with PHP and SOAP.
+* Convert raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js
 * Research advanced HTML5 and JavaScript techniques and implement the latest browser technology.
+* Lead developer for design and implementation of customer portal within multiple WordPress instances.
 * Resolve QA and customer submitted defects within the web application.
 * Perform Git operations within a development and production environment.
 * Deploy and install GitLab upgrades on a monthly basis.
-* Manage and complete tasks timely in a Scrum managed development process.
 * Collaborate with Quality Assurance in review of test plans and transferring unit test into automation.
-* Collaborate with team members to ensure implementation of features/functionality conform to release/business objectives.
+* Work closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
+* Automated custom web application build and deployment using Grunt.
 
 #### Art Institute of Phoenix
 : *Adjunct Professor - Graphic & Web Design*
