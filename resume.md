@@ -1,58 +1,68 @@
 # Erik Waibel
-## Software Engineer II, Web Developer
+## Senior Frontend Engineer
 
-> [Download PDF](resume.pdf)
-> [GitHub Profile](http://www.github.com/ejwaibel)
+> [GitHub](http://www.github.com/ejwaibel)
 > [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
 
 ------
 
-### tl;dr {#summary}
+### Summary {#summary}
 
-Highly motivated seasoned software developer focused on developing for the web using JavaScript, HTML5, CSS3, and PHP / NodeJS. High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. Focused on other people and being of true help and service to them.  Broad skill set with 12 years of software development experience and 7 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long term sustainable solution instead of a temporary fix. Humility. Respect. Trust.
+Highly passionate software developer focused on frontend web development, alongside PHP or Node. 
+High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. 
+Focused on other people and being of true help and service to them.  Broad skill set with 20 years of software development experience and 10 years of software configuration management expertise. 
+A time oriented, results driven project manager consistently capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and small bugs are considered errors.
 
 ------
 
 ### Technical Skills {#skills}
 
-* Expert knowledge of XHTML/HTML5, CSS/CSS3, HTML theming, JavaScript, jQuery, jQuery UI, Object Oriented PHP, NodeJS, RESTful Web Services, SOAP, and XHR/AJAX
-* Comfortable writing raw JavaScript, without the use of libraries or 3rd party tools.
-* Experience with LESS, Grunt, Yeoman
-* Knowledge of cross-browser compatibility issues and solutions
-* Advanced knowledge of Web development industry standards
-* Advanced script development using Perl, bash, ksh, and batch
-* Expert knowledge of source control tools: IBM Rational ClearCase, Subversion, and Git
-* Intermediate knowledge of underlying WordPress functionality and theme templating
+* Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
+* Experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express
+* Advanced shell script development using Perl, bash, and ksh
+* Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
+* Advanced development experience with Adobe Experience Manager
 
 ------
 
 ### Experience {#experience}
 
+#### General Motors IT
+: *Lead Frontend Engineer / AEM Developer*
+  __July 2014-Present__
+
+* Designed solution for custom SCSS inheritance to accomodate multiple shared projects  
+* Arhitected custom modular frontend solution with TerrificJS for AEM 6.0 custom components
+* Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release
+* Mentored 15 junior developers to help them grow and understand SCSS/JavaScript best practices
+* Triage bugs on a daily basis to ensure issues are resolved in time for production release
+* Coordinated with business and design teams to ensure proper requirements for new features
+* Solution Gulp process and enhance as necessary based on project challenges
+* Coordinated migration of multiple code repos from SVN to Git
+
 #### iTRACS / Commscope
 : *Software Engineer II*
-  __Nov. 2012-Present__
+  __Nov. 2012-July 2014__
 
-* Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution.
-* Engineer robust, scalable and extendable JavaScript.
-* Create and deploy advanced RESTful API interfaces with PHP and SOAP.
-* Convert raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js
-* Research advanced HTML5 and JavaScript techniques and implement the latest browser technology.
-* Lead developer for design and implementation of customer portal within multiple WordPress instances.
-* Resolve QA and customer submitted defects within the web application.
-* Perform Git operations within a development and production environment.
-* Deploy and install GitLab upgrades on a monthly basis.
-* Collaborate with Quality Assurance in review of test plans and transferring unit test into automation.
-* Work closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
-* Automated custom web application build and deployment using Grunt.
+Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Also worked as the Lead developer for design and implementation of customer portal with multiple WordPress instances.
+
+* Engineered robust, scalable and extendable JavaScript
+* Created and deployed advanced RESTful API interfaces with PHP and SOAP
+* Converted raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js
+* Resolved QA and customer submitted defects within the web application
+* Collaborated with Quality Assurance in review of test plans and transferring unit test into automation
+* Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
+* Automated custom web application build and deployment using Grunt
 
 #### Art Institute of Phoenix
 : *Adjunct Professor - Graphic & Web Design*
-  __Sept. 2010-Present__
+  __Sept. 2010-Dec. 2014__
 
-* *Intro to Programming*: Requires teaching the fundamentals of programming logic.
-* *Intro/Intermediate/Advanced Scripting*: Requires teaching the following skills: HTML/XHTML, HTML5, and CSS3.
-* *Intro/Intermediate/Advanced Authoring*: Requires teaching the following skills: JavaScript, jQuery, and PHP with MySQL.
-* *User Centered Design*: Requires teaching the fundamentals of UX and how to build websites with the user in mind.
+Adjunct professor for Web Design/Development department, with average class size of 12 students. 
+I taught the following courses: *Intro to Programming*; *Intro, Intermediate, & Advanced Scripting*; *Intro, Intermediate, & Advanced Authoring*, *User Centered Design*.
+
+* HTML5, CSS3, JavaScript, jQuery, PHP w/MySQL
+* Fundamentals of UX
 
 #### Everything Just Works, LLC
 : *Owner, Software Developer*
@@ -63,60 +73,45 @@ Highly motivated seasoned software developer focused on developing for the web u
   * Custom JavaScript with Google Maps API for calculating distances between multiple addresses.
   * Custom jQuery for generating tables with calculated data along with jQuery UI effects.
   * Integrated local Subversion install with Eclipse for easy source control management.
-  * Developed the “Conditional Questions” add-on using PHP & jQuery for the Event Espresso WordPress plugin.
 * Diagnosed and repaired local and small business websites that use WordPress.
 * Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) or client requests.
-* Provided computer repair for individual customers and small businesses with 5 to 20 employees.
-* Eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.
 
 #### Insight Global
 : *Software Developer, Contract w/Level 3 Communications*
   __July 2012 - Oct. 2012__
 
 * Developed the internal website on Apache server for network planners using Perl Mason, HTML5, JavaScript, jQuery, and CSS3.
-* Wrote custom JavaScript & jQuery for dynamic table generation using the DataTables plugin along with dynamic graphs using jqPlot.
 * Configured and administered Bugzilla installation on Linux CentOS server for customer required bug tracking system.
-* Customized Bugzilla templates in order to meet additional client requirements.
-* Assessed current Perl code and influenced new programming standards and modules based on my conclusions.
 * Provided multiple Perl script reports that would run on a daily/weekly cron job and generate custom Excel spreadsheets for client.
 * Created custom internal Perl modules to help with database connections, common utility functions, and Excel spreadsheet customization.
-* Documented all code and followed documentation standards for JavaScript and Perl.
 
 #### APEX Systems
 : *Systems Engineer, Contract w/Wells Fargo*
   __Oct. 2011 - June 2012__
 
-* Developed Perl script that would run as a daemon to search specific directories for files. The script used an XML configuration file to determine which paths to search and could also be used to find files that are older than a specified amount of time.
-* Installed CPAN modules to help with Perl automation, including, but not limited to: Log::Log4Perl, Net::SSH, XML::Simple, MIME::Lite, Getopt::Long, MIME::Base64, forks, Expect. This saved hours of development time by not “reinventing the wheel.”
-* Customized in-house OO Perl modules for better functionality and maintainability. Scripts were required to parse XML & configuration files, generate reports based on user input, etc.
-* Expanded Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.
+* Developed Perl script that would run as a daemon to search specific directories for files. 
+* Customized in-house OO Perl modules for better functionality and maintainability. 
+* Extended Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.
 * Enhanced current scripts to include the use of Log::Log4Perl in order to generate log files for all output in order to verify steps were completed successfully.
 * Configured “Eclipse for Perl” IDE to develop Perl scripts and modules along with Cygwin to deploy scripts to our development server for testing.
-* Migrated source code from ClearCase to Subversion and implemented development & release process.
-* Completed 2 month long task to implement a new testing environment between 2 UNIX Solaris servers. The environment had to mimic a currently configured testing environment, but there was little to no documentation for the already configured servers.
-* Simplified the assignment of duties to production support members by creating a Microsoft Access database for management to assign tasks efficiently.
 * Provided multi-level support to the Customer Care team and employees that worked directly with Wells Fargo Wholesale customers.
 
 #### A Better Solution, Inc.
 : *Software Developer, ClearCase Consultant*
   __Apr. 2007 - June 2011__
 
-* Worked in a ClearCase/UCM environment to version control software on UNIX.
 * Implemented Perl scripts to help developers integrate with ClearCase more seamlessly.
 * Developed Perl modules for custom ClearCase functionality within our scripts. This allowed to easily and quickly building Perl scripts for custom ClearCase interaction.
 * Ensured project builds and releases performed efficiently and correctly through the use of IBM Rational BuildForge.
 * Produced automated build scripts using Perl and shell programming.
-* Generated customized and ad hoc end user reports as requested by management.
 * Administered UNIX & Windows machines for the IT group whenever necessary.
-* Logged incoming work-orders for desktop and/or application support assistance & assigned tickets and support technician based on issue type. Regularly checked progress of assigned work-orders and provided follow up as appropriate.
 * Provided first level technical assistance to end users including, but not limited to: replicating errors, resolving application issues, and investigating errors.
-* Created an XSL file that successfully translated XML files into a styled webpage using CSS.
 
 #### BlueHornet.com
-: *Jr. Software Developer*
+: *Jr. PHP Developer*
   __Sept. 2006 - Apr. 2007__
 
-* Enhanced current PHP web application with custom Object Oriented code for quicker development and easier maintainability.
+* Enhanced existing PHP web application with custom Object Oriented code for quicker development and easier maintainability.
 * Produced new application feature that gave customers the capability of saving custom “email groups” for their email campaigns.
 * Coordinated with project management and gave status updates bi-weekly until the project manager and customer were satisfied.
 * Resolved customer submitted defects within the application and extended the application functionality with new feature requests.
@@ -131,7 +126,6 @@ Highly motivated seasoned software developer focused on developing for the web u
 ### Education
 
 #### California State Polytechnic University
-
 : *Pomona, CA*
   __B.S., Computer Science__
 
@@ -139,6 +133,7 @@ Highly motivated seasoned software developer focused on developing for the web u
 
 ### Footer {#footer}
 
-Erik Waibel -- [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
+Erik Waibel -- 480-331-1899 -- [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
 
+*Built with there4/markdown-resume*
 ------
