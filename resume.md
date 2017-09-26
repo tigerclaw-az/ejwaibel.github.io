@@ -13,8 +13,6 @@ High iterative approach to problem solving with a think outside the box mentalit
 Focused on other people and being of true help and service to them.  Broad skill set with 20 years of software development experience and 10 years of software configuration management expertise. 
 A time oriented, results driven project manager consistently capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and small bugs are considered errors.
 
-------
-
 ### Technical Skills {#skills}
 
 * Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
@@ -22,8 +20,6 @@ A time oriented, results driven project manager consistently capable of finding 
 * Advanced shell script development using Perl, bash, and ksh
 * Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
 * Advanced development experience with Adobe Experience Manager
-
-------
 
 ### Experience {#experience}
 
@@ -59,22 +55,25 @@ Responsible for the construction and implementation of an enterprise class web a
   __Sept. 2010-Dec. 2014__
 
 Adjunct professor for Web Design/Development department, with average class size of 12 students. 
-I taught the following courses: *Intro to Programming*; *Intro, Intermediate, & Advanced Scripting*; *Intro, Intermediate, & Advanced Authoring*, *User Centered Design*.
 
-* HTML5, CSS3, JavaScript, jQuery, PHP w/MySQL
-* Fundamentals of UX
+1. *Intro to Programming* 
+2. *Intro / Intermediate / Advanced Scripting* 
+   * JavaScript, jQuery, PHP w/MySQL
+3. *Intro / Intermediate / Advanced Authoring*
+   * HTML5, CSS3
+4. *User Centered Design*
+   * Fundamentals of UX
 
 #### Everything Just Works, LLC
 : *Owner, Software Developer*
   __May 2010 - Dec. 2013__
 
 * Built custom website for Realty Company that would allow users to search for houses based on a given MLS listing.
-  * Object Oriented PHP from scratch with IIS 7.5 and Microsoft SQL 2008 database integration.
-  * Custom JavaScript with Google Maps API for calculating distances between multiple addresses.
-  * Custom jQuery for generating tables with calculated data along with jQuery UI effects.
-  * Integrated local Subversion install with Eclipse for easy source control management.
+  * PHP application with IIS 7.5 and Microsoft SQL 2008 database
+  * Developed JavaScript with Google Maps API to calculate distances between multiple addresses
+  * Built custom jQuery plugin to generate tabular data records
 * Diagnosed and repaired local and small business websites that use WordPress.
-* Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) or client requests.
+* Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) and/or client requests.
 
 #### Insight Global
 : *Software Developer, Contract w/Level 3 Communications*
@@ -121,19 +120,14 @@ I taught the following courses: *Intro to Programming*; *Intro, Intermediate, & 
 * Resolved database issues with customer support after a duplicate email campaign was processed incorrectly.
 * Documented new features thoroughly for use with customer support documentation.
 
-------
-
 ### Education
 
 #### California State Polytechnic University
 : *Pomona, CA*
   __B.S., Computer Science__
 
-------
+-----
 
 ### Footer {#footer}
 
 Erik Waibel -- 480-331-1899 -- [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
-
-*Built with there4/markdown-resume*
-------
