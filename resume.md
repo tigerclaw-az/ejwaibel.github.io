@@ -33,28 +33,23 @@ A time oriented, results driven project manager consistently capable of finding 
 * Mentored 15 junior developers to help them grow and understand SCSS/JavaScript best practices
 * Triage bugs on a daily basis to ensure issues are resolved in time for production release
 * Coordinated with business and design teams to ensure proper requirements for new features
-* Solution Gulp process and enhance as necessary based on project challenges
-* Coordinated migration of multiple code repos from SVN to Git
+* Built solution for Gulp build process and enhanced as necessary based on project challenges
 
-#### iTRACS / Commscope
+#### iTRACS | Commscope
 : *Software Engineer II*
   __Nov. 2012-July 2014__
 
-Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Also worked as the Lead developer for design and implementation of customer portal with multiple WordPress instances.
+Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
 
 * Engineered robust, scalable and extendable JavaScript
 * Created and deployed advanced RESTful API interfaces with PHP and SOAP
 * Converted raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js
-* Resolved QA and customer submitted defects within the web application
-* Collaborated with Quality Assurance in review of test plans and transferring unit test into automation
-* Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
-* Automated custom web application build and deployment using Grunt
 
 #### Art Institute of Phoenix
 : *Adjunct Professor - Graphic & Web Design*
   __Sept. 2010-Dec. 2014__
 
-Adjunct professor for Web Design/Development department, with average class size of 12 students. 
+Adjunct professor for Graphic & Web Design department, with average class size of 12 students. 
 
 1. *Intro to Programming* 
 2. *Intro / Intermediate / Advanced Scripting* 
@@ -89,10 +84,9 @@ Adjunct professor for Web Design/Development department, with average class size
   __Oct. 2011 - June 2012__
 
 * Developed Perl script that would run as a daemon to search specific directories for files. 
-* Customized in-house OO Perl modules for better functionality and maintainability. 
+* Customized in-house Perl modules for better functionality and maintainability. 
 * Extended Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.
 * Enhanced current scripts to include the use of Log::Log4Perl in order to generate log files for all output in order to verify steps were completed successfully.
-* Configured “Eclipse for Perl” IDE to develop Perl scripts and modules along with Cygwin to deploy scripts to our development server for testing.
 * Provided multi-level support to the Customer Care team and employees that worked directly with Wells Fargo Wholesale customers.
 
 #### A Better Solution, Inc.
@@ -110,15 +104,7 @@ Adjunct professor for Web Design/Development department, with average class size
 : *Jr. PHP Developer*
   __Sept. 2006 - Apr. 2007__
 
-* Enhanced existing PHP web application with custom Object Oriented code for quicker development and easier maintainability.
-* Produced new application feature that gave customers the capability of saving custom “email groups” for their email campaigns.
-* Coordinated with project management and gave status updates bi-weekly until the project manager and customer were satisfied.
-* Resolved customer submitted defects within the application and extended the application functionality with new feature requests.
-* Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS.
-* Performed CVS functions to keep source version controlled and better coordination between development team.
-* Created SQL queries with Oracle database to retrieve, store, or delete necessary records.
-* Resolved database issues with customer support after a duplicate email campaign was processed incorrectly.
-* Documented new features thoroughly for use with customer support documentation.
+Worked as Junior PHP Developer to help enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.
 
 ### Education
 
