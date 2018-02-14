@@ -8,17 +8,20 @@
 
 ### Summary {#summary}
 
-Highly passionate software developer focused on frontend web development, alongside PHP or Node. 
-High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. 
-Focused on other people and being of true help and service to them.  Broad skill set with 20 years of software development experience and 10 years of software configuration management expertise. 
-A time oriented, results driven project manager consistently capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and small bugs are considered errors.
+Highly passionate software developer focused on frontend web development, alongside PHP or Node.
+High iterative approach to problem solving with a think outside the box mentality and ability to
+learn new technologies quickly. Focused on other people and being of true help and service to them.
+Broad skill set with 20 years of software development experience and 10 years of software
+configuration management expertise. A time oriented, results driven project manager consistently
+capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and
+bugs are considered errors.
 
 ### Technical Skills {#skills}
 
 * Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
-* Experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express
-* Advanced shell script development using Perl, bash, and ksh
 * Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
+* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express
+* Advanced shell script development using Perl, bash, and ksh
 * Advanced development experience with Adobe Experience Manager
 
 ### Experience {#experience}
@@ -27,13 +30,13 @@ A time oriented, results driven project manager consistently capable of finding 
 : *Lead Frontend Engineer / AEM Developer*
   __July 2014-Present__
 
-* Designed solution for custom SCSS inheritance to accomodate multiple shared projects  
-* Arhitected custom modular frontend solution with TerrificJS for AEM 6.0 custom components
+* Designed solution for custom SCSS inheritance to accomodate multiple shared projects
+* Arhitected custom modular JavaScript solution with TerrificJS for AEM 6.0 custom components
 * Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release
 * Mentored 15 junior developers to help them grow and understand SCSS/JavaScript best practices
 * Triage bugs on a daily basis to ensure issues are resolved in time for production release
 * Coordinated with business and design teams to ensure proper requirements for new features
-* Built solution for Gulp build process and enhanced as necessary based on project challenges
+* Built custom solution for Gulp build process and enhanced as necessary based on project challenges
 
 #### iTRACS | Commscope
 : *Software Engineer II*
@@ -49,10 +52,10 @@ Responsible for the construction and implementation of an enterprise class web a
 : *Adjunct Professor - Graphic & Web Design*
   __Sept. 2010-Dec. 2014__
 
-Adjunct professor for Graphic & Web Design department, with average class size of 12 students. 
+Adjunct professor for Graphic & Web Design department, with average class size of 12 students.
 
-1. *Intro to Programming* 
-2. *Intro / Intermediate / Advanced Scripting* 
+1. *Intro to Programming*
+2. *Intro / Intermediate / Advanced Scripting*
    * JavaScript, jQuery, PHP w/MySQL
 3. *Intro / Intermediate / Advanced Authoring*
    * HTML5, CSS3
@@ -83,8 +86,8 @@ Adjunct professor for Graphic & Web Design department, with average class size o
 : *Systems Engineer, Contract w/Wells Fargo*
   __Oct. 2011 - June 2012__
 
-* Developed Perl script that would run as a daemon to search specific directories for files. 
-* Customized in-house Perl modules for better functionality and maintainability. 
+* Developed Perl script that would run as a daemon to search specific directories for files.
+* Customized in-house Perl modules for better functionality and maintainability.
 * Extended Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.
 * Enhanced current scripts to include the use of Log::Log4Perl in order to generate log files for all output in order to verify steps were completed successfully.
 * Provided multi-level support to the Customer Care team and employees that worked directly with Wells Fargo Wholesale customers.
