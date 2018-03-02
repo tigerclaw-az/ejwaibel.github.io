@@ -30,6 +30,8 @@ bugs are considered errors.
 : *Lead Frontend Engineer / AEM Developer*
   __July 2014-Present__
 
+* Applied CSS3 styles to modular components based on PSD styleguides
+* Built multiple angular applications for inclusion into a Foundation framework
 * Designed solution for custom SCSS inheritance to accomodate multiple shared projects
 * Arhitected custom modular JavaScript solution with TerrificJS for AEM 6.0 custom components
 * Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release
