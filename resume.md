@@ -1,5 +1,5 @@
 # Erik Waibel
-## Senior Frontend Engineer
+## Senior Web Developer
 
 > [GitHub](http://www.github.com/ejwaibel)
 > [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
@@ -8,37 +8,41 @@
 
 ### Summary {#summary}
 
-Highly passionate software developer focused on frontend web development, alongside PHP or Node.
-High iterative approach to problem solving with a think outside the box mentality and ability to
-learn new technologies quickly. Focused on other people and being of true help and service to them.
-Broad skill set with 20 years of software development experience and 10 years of software
-configuration management expertise. A time oriented, results driven project manager consistently
-capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and
-bugs are considered errors.
+Highly passionate software developer focused on frontend web development, alongside PHP or Node. High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. Focused on other people and being of true help and service to them. Broad skill set with 20 years of software development experience and 10 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and bugs are considered errors.
 
 ### Technical Skills {#skills}
 
 * Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
 * Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
-* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express
+* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express, React
 * Advanced shell script development using Perl, bash, and ksh
 * Advanced development experience with Adobe Experience Manager
 
 ### Experience {#experience}
 
+#### Chandler Gilbert Community College
+: *Adjunct Professor - Computer Information Systems*
+  __January 2018-Present__
+
+Adjunct professor in the Computer Information Systems department with focus on web development courses integrating HTML5, CSS3, and JavaScript.
+
 #### General Motors IT
-: *Lead Frontend Engineer / AEM Developer*
+: *Lead Web Developer*
   __July 2014-Present__
 
 * Applied CSS3 styles to modular components based on PSD styleguides
 * Built multiple angular applications for inclusion into a Foundation framework
 * Designed solution for custom SCSS inheritance to accomodate multiple shared projects
-* Arhitected custom modular JavaScript solution with TerrificJS for AEM 6.0 custom components
+* Arhitected internal modular JavaScript solution with TerrificJS called "AtomicJS"
 * Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release
 * Mentored 15 junior developers to help them grow and understand SCSS/JavaScript best practices
-* Triage bugs on a daily basis to ensure issues are resolved in time for production release
+* Built custom solution for Gulp build process and enhanced based on project challenges
+* Integrated 3 custom jQuery plugins into project's custom AtomicJS framework
+* Triaged bugs on a daily basis to ensure issues are resolved in time for production release
 * Coordinated with business and design teams to ensure proper requirements for new features
-* Built custom solution for Gulp build process and enhanced as necessary based on project challenges
+* Researched advanced CSS & JavaScript techniques to implement latest browser features and enhance the customer's experience
+* Performed Subversion and Git operations within a development and production environment
+* Collaborated with IT team to enhance and fix issues with Mac OS computers
 
 #### iTRACS | Commscope
 : *Software Engineer II*
@@ -49,6 +53,14 @@ Responsible for the construction and implementation of an enterprise class web a
 * Engineered robust, scalable and extendable JavaScript
 * Created and deployed advanced RESTful API interfaces with PHP and SOAP
 * Converted raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js
+* Developed and maintained large single-page web application that supports all major browsers and OS
+* Built and extended custom AJAX methods using jQuery deferred
+* Designed and developed advanced RESTful API interfaces with PHP and SOAP Web Services
+* Extended existing jQuery UI widgets and built custom widgets
+* Performed Subversion and Git operations within a development and production environment
+* Assisted in managing Git merge requests with multiple developers and branches through Gitlab
+* Maintained central Git server and repository for all development
+* Managed product enhancements and defects timely in an agile development process
 
 #### Art Institute of Phoenix
 : *Adjunct Professor - Graphic & Web Design*
