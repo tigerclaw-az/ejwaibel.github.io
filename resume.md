@@ -26,6 +26,14 @@ Highly passionate software developer focused on frontend web development, alongs
 
 Adjunct professor in the Computer Information Systems department with focus on web development courses integrating HTML5, CSS3, and JavaScript.
 
+#### IRELO
+: *Senior Web Application Developer*
+  __April 2018-Present__
+
+* Build lead application web forms with Vue
+* Setup Netlify automated frontend build and deployments
+* Define git standardization and process through Gitlab
+
 #### General Motors IT
 : *Lead Web Developer*
   __July 2014-Present__
