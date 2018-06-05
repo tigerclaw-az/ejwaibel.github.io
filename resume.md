@@ -1,22 +1,24 @@
 # Erik Waibel
 ## Senior Web Developer
 
-> [GitHub](http://www.github.com/ejwaibel)
+> [GitHub](https://www.github.com/ejwaibel)
 > [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
+> 480-331-1899
 
 ------
 
 ### Summary {#summary}
 
-Highly passionate software developer focused on frontend web development, alongside PHP or Node. High iterative approach to problem solving with a think outside the box mentality and ability to learn new technologies quickly. Focused on other people and being of true help and service to them. Broad skill set with 20 years of software development experience and 10 years of software configuration management expertise. A time oriented, results driven project manager consistently capable of finding the long-term sustainable solution instead of a temporary fix. All warnings and bugs are considered errors.
+Passionate and motivated software developer focused on frontend web development, with backend experience including PHP and NodeJS. I bring an expert knowledge of all things web and architecture. Problem solving is my second language. Writing code has been my life since I was a teenager. I am excited about all things related to technology and development.
 
 ### Technical Skills {#skills}
 
 * Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
 * Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
-* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, AngularJS, express, React
+* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, VueJS
 * Advanced shell script development using Perl, bash, and ksh
 * Advanced development experience with Adobe Experience Manager
+* Intermediate experience with Angular, Express, and MongoDB
 
 ### Experience {#experience}
 
@@ -30,13 +32,13 @@ Adjunct professor in the Computer Information Systems department with focus on w
 : *Senior Web Application Developer*
   __April 2018-Present__
 
-* Build lead application web forms with Vue
-* Setup Netlify automated frontend build and deployments
+* Build and enhance lead generation web application with VueJS
+* Configured Netlify automated frontend builds and deployments
 * Define git standardization and process through Gitlab
 
 #### General Motors IT
 : *Lead Web Developer*
-  __July 2014-Present__
+  __July 2014-April 2018__
 
 * Applied CSS3 styles to modular components based on PSD styleguides
 * Built multiple angular applications for inclusion into a Foundation framework
@@ -76,12 +78,12 @@ Responsible for the construction and implementation of an enterprise class web a
 
 Adjunct professor for Graphic & Web Design department, with average class size of 12 students.
 
-1. *Intro to Programming*
-2. *Intro / Intermediate / Advanced Scripting*
+1.  *Intro to Programming*
+2.  *Intro / Intermediate / Advanced Scripting*
    * JavaScript, jQuery, PHP w/MySQL
-3. *Intro / Intermediate / Advanced Authoring*
+3.  *Intro / Intermediate / Advanced Authoring*
    * HTML5, CSS3
-4. *User Centered Design*
+4.  *User Centered Design*
    * Fundamentals of UX
 
 #### Everything Just Works, LLC
