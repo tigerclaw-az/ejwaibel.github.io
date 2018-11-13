@@ -1,5 +1,5 @@
 # Erik Waibel
-## Senior Web Developer
+## Senior Frontend Engineer
 
 > [GitHub](https://www.github.com/ejwaibel)
 > [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
@@ -9,16 +9,15 @@
 
 ### Summary {#summary}
 
-Passionate and motivated software developer focused on frontend web development, with backend experience including PHP and NodeJS. I bring an expert knowledge of all things web and architecture. Problem solving is my second language. Writing code has been my life since I was a teenager. I am excited about all things related to technology and development.
+Passionate and motivated software developer focused on frontend web development, with backend experience including PHP and NodeJS. I bring a wealth of experience in regards to source control and frontend web development. Problem solving is my second language. I am excited about all things related to technology and software development with a willingness to learn.
 
 ### Technical Skills {#skills}
 
-* Expert knowledge of HTML5, SCSS, CSS3, JavaScript, jQuery, PHP, NodeJS, RESTful Web Services
-* Expert knowledge of source control tools, such as SVN, Git (Bitbucket, Gitlab, Github), ClearCase
-* Advanced experience with Handlebars, LESS, ES6, Grunt, Gulp, Yeoman, VueJS
+* Expert knowledge of HTML5, SCSS, CSS3, JavaScript, VueJS, jQuery, NodeJS, RESTful Web Services
+* Expert knowledge of source control tools: SVN, Git (Bitbucket, Gitlab, Github), ClearCase
+* Advanced experience with LESS, ES6, Grunt, Gulp, Yeoman, PHP
 * Advanced shell script development using Perl, bash, and ksh
-* Advanced development experience with Adobe Experience Manager
-* Intermediate experience with Angular, Express, and MongoDB
+* Intermediate experience with Angular, NuxtJS, Express, and MongoDB
 
 ### Experience {#experience}
 
@@ -32,9 +31,16 @@ Adjunct professor in the Computer Information Systems department with focus on w
 : *Senior Web Application Developer*
   __April 2018-Present__
 
-* Build and enhance lead generation web application with VueJS
+Lead frontend engineer responsible for building and maintaining 10 web applications with WordPress, VueJS and Nuxt.
+
+* Architect custom VueJS components and integrate with new and existing applications across organization
+* Utilized vue-cli 3.0 integration to perform JavaScript compilation and minification for all frontend development
+* Coordinate with PM in Asana scrum/sprint process to ensure all bugs & features are completed on time
+* Generated global custom eslint and stylelint configurations for inclusion with all company projects
 * Configured Netlify automated frontend builds and deployments
-* Define git standardization and process through Gitlab
+* Organized Git standardization and process through Gitlab and ensured developers conformed
+* Produced Git CLI script to generate automatic changelog and Gitlab release
+* Integrated with latest JavaScript standards and ES2017 features
 
 #### General Motors IT
 : *Lead Web Developer*
