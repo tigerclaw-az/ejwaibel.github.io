@@ -24,12 +24,6 @@ Passionate and motivated software developer focused on frontend web development 
 
 ### Experience {#experience}
 
-#### Chandler Gilbert Community College
-: *Adjunct Faculty - Computer Information Systems*
-  __January 2018-Present__
-
-Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.
-
 #### IRELO
 : *Senior Frontend Engineer | Vue Developer*
   __April 2018-Present__
@@ -45,6 +39,12 @@ Lead frontend engineer/architect responsible for building and maintaining 10 sin
 * Organized Git standardization and process through Gitlab and ensured developers conformed
 * Produced Git CLI script to generate automatic changelog and Gitlab release
 * Integrated with latest JavaScript standards and ES2017 features
+
+#### Chandler Gilbert Community College
+: *Adjunct Faculty - Computer Information Systems*
+  __January 2018-Present__
+
+Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.
 
 #### General Motors IT
 : *Lead Web Developer*
@@ -92,11 +92,8 @@ Adjunct professor for Graphic & Web Design department, with average class size o
 
 1.  *Intro to Programming*
 2.  *Intro / Intermediate / Advanced Scripting*
-   * JavaScript, jQuery, PHP w/MySQL
 3.  *Intro / Intermediate / Advanced Authoring*
-   * HTML5, CSS3
 4.  *User Centered Design*
-   * Fundamentals of UX
 
 #### Everything Just Works, LLC
 : *Owner, Software Developer*
