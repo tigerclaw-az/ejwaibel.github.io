@@ -1,31 +1,31 @@
+<header class="header" markdown="1">
 # Erik Waibel
 ## Senior Frontend Engineer
+</header>
 
-> [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
-> +1 480-331-1899
-> [https://www.github.com/ejwaibel](https://www.github.com/ejwaibel)
-> [https://www.linkedin.com/in/ejwaibel](https://www.linkedin.com/in/ejwaibel)
+<section class="summary" markdown="1">
+As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team's development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.
+</section>
 
-------
+> [ejwaibel+resume@gmail.com](mailto:ejwaibel+resume@gmail.com) {.icon .icon--email}
+> [+1 480-331-1899](tel:14803311899) {.icon .icon--phone}
+> [Chandler, AZ]() {.icon .icon--location}
+> [https://www.github.com/ejwaibel](https://www.github.com/ejwaibel) {.icon .icon--github}
+> [https://www.linkedin.com/in/ejwaibel](https://www.linkedin.com/in/ejwaibel) {.icon .icon--linkedin}
 
-### SUMMARY {#summary}
-
-Passionate and motivated software developer focused on frontend web development using Vue. I have over 5 years of experience working on enterprise production software using modern front end technology stack. I bring a wealth of experience with regards to source control and frontend web development. Problem-solving is my second language. I am excited about all things related to technology and software development with a willingness to learn.
-
+<section class="main" markdown="1">
 ### SKILLS {#skills}
 
-* 6+ years working with HTML5, CSS3, JavaScript, jQuery, NodeJS, REST
+* HTML5, CSS3, JavaScript, jQuery, NodeJS, REST
 * Strong knowledge and experience with modern JavaScript frameworks (Angular, Vue.js, Backbone, Ember etc.)
-* Expert in multiple source control software (SVN, Git [Gitlab, Github, Bitbucket], ClearCase)
 * Proficient with SCSS/LESS/PostCSS, ES6, Grunt, Gulp, Yeoman, PHP, Webpack, Web Components
 * Advanced shell script development using Perl, bash, ksh
 * Strong knowledge and experience with Angular, React, Vue.js, Express, MongoDB
-* Knowledge and experience with DevOps, Docker, AWS
-* Computer Science fundamentals in object-oriented design, data structures, and complexity analysis
+* Experience with DevOps, Docker, AWS, Jenkins
 
 ### WORK EXPERIENCE {#experience}
 
-#### Senior Frontend Engineer | Vue Developer
+#### Lead Frontend Engineer | Senior Vue Developer
 : iRELO
   *04/2018 - Present*
 
@@ -37,10 +37,9 @@ Lead frontend engineer/architect responsible for building and maintaining 10 sin
 * Created multiple components and sites from InVision UX designs
 * Coordinate with PM in Asana agile methodology to ensure all bugs & features are completed on time
 * Generated global custom eslint and stylelint configurations for inclusion with all company projects
-* Configured Netlify automated frontend builds and deployments
-* Organized Git standardization and process through Gitlab and ensured developers conformed
+* Organized Git standardization and process through Gitlab, while training and supporting developers
 * Produced Git CLI script to generate automatic changelog and Gitlab release
-* Integrated with latest JavaScript standards and ES2017 features
+* Integrated latest JavaScript standards and ES2017 features
 
 #### Adjunct Faculty
 : Chandler Gilbert Community College
@@ -48,7 +47,7 @@ Lead frontend engineer/architect responsible for building and maintaining 10 sin
 
 Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.
 
-#### Senior Frontend | Lead UI Engineer
+#### Lead UI Engineer | Senior Web Developer
 : General Motors IT
   *07/2014 - 04/2018*
 
@@ -59,7 +58,7 @@ Lead UI engineer responsible for end to end feature enablement across the UI lay
 * Built multiple angular applications for inclusion into a Bootstrap/Foundation framework
 * Designed solution for custom SCSS inheritance to accomodate multiple shared projects
 * Arhitected internal modular JavaScript solution with TerrificJS called "AtomicJS"
-* Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release
+* Lead team of 20 developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries
 * Built custom solution for Gulp build process and provided enhancements based on project challenges
 * Integrated custom jQuery plugins into project's custom AtomicJS framework
 * Triaged bugs on a daily basis to ensure issues are resolved in time for production release
@@ -148,11 +147,11 @@ Junior PHP developer helping to enhance the existing web application with custom
 ### EDUCATION
 
 #### B.S., Computer Science
-: *California State Polytechnic University*
-  __09/2001 - 08/2006__
+: California State Polytechnic University
+  *09/2001 - 08/2006*
 
------
+</section>
 
-### Footer {#footer}
-
-Erik Waibel -- 480-331-1899 -- [ejwaibel+resume@gmail.com](ejwaibel+resume@gmail.com)
+<footer class="footer" markdown="1">
+Erik Waibel -- [480-331-1899](tel:+14803311899) -- [ejwaibel+resume@gmail.com](mailto:ejwaibel+resume@gmail.com)
+</footer>

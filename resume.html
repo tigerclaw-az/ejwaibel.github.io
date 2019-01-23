@@ -1,10 +1,73 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="refresh" content="yes" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous"
+        />
+        <title>Erik Waibel | Senior Frontend Engineer</title>
+        <style type="text/css">
+            :root {
+  --color-gray-10: #F1F3F6;
+  --color-gray-20: #CED0D4;
+  --color-gray-30: #A0A5AB;
+  --color-gray-40: #727981;
+  --color-gray-50: #414C58;
+  --color-gray-60: #24282F;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-green: #64BB53;
+  --color-red: #FB434D;
+  --color-orange: #F48248;
+  --color-yellow: #FCB748;
+  --color-blue: #09AFD6;
+  --color-primary: var(--color-blue);
+  --color-primary-hover: #75AEBD;
+  --color-danger: var(--color-red);
+  --color-success: var(--color-red);
+  --color-warning: var(--color-orange);
+  --disabled-color: var(--color-gray-30);
+  --disabled-bg: var(--color-gray-10);
+}
 
-<title>Erik Waibel | Senior Frontend Engineer</title>
-<style type="text/css">
+
+.icon::before {
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  margin-right: 4px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon--email::before {
+  content: "\f0e0";
+}
+.icon--github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f09b";
+}
+.icon--linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f0e1";
+}
+.icon--location::before {
+  content: "\f3c5";
+}
+.icon--phone::before {
+  content: "\f095";
+}
 
 article,
 aside,
@@ -242,10 +305,6 @@ body.pdf a {
   text-decoration: none;
   color: black;
 }
-body.pdf a[href$='.pdf'],
-body.pdf a[href*='github'] {
-  display: none;
-}
 body.pdf .container {
   width: 1080px;
   margin: 0 auto;
@@ -256,7 +315,7 @@ body.pdf .container {
 }
 body.pdf .resume {
   position: relative;
-  padding: 40px 80px;
+  padding: 20px 0;
 }
 body.pdf h1 {
   letter-spacing: 0;
@@ -273,11 +332,6 @@ body.pdf h2 {
 body.pdf h3 {
   font-style: normal;
 }
-body.pdf blockquote {
-  top: 40px;
-  right: 50px;
-  position: absolute;
-}
 
 .clearfix {
   zoom: 1;
@@ -290,19 +344,40 @@ body.pdf blockquote {
   content: ".";
 }
 body {
-  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--color-gray-60);
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: Roboto, "Century Gothic", AppleGothic, sans-serif;
 }
 .container {
   margin: 0 auto;
   padding: 0;
-  background: whiteSmoke;
-  border: solid #666;
-  border-width: 8px 0 2px 0;
+  background: #ffffed;
+  border: solid var(--color-gray-50);
+  border-width: 8px 0 4px 0;
   text-align: left;
 }
 .resume {
   position: relative;
-  padding: 10px 20px;
+  padding: 0.75em 0 0;
+}
+.header h2 {
+  font-style: italic;
+}
+.main {
+  margin-top: 1em;
+}
+.header,
+.summary,
+.main,
+.footer {
+  padding: 0 2em;
 }
 a[href$='.pdf'] {
   background: #666;
@@ -314,28 +389,32 @@ a[href$='.pdf'] {
   top: 15px;
   right: 25px;
 }
-a[href*='github'] {
-  background: #000;
-  color: white;
-  padding: 6px 12px;
-  margin-bottom: 6px;
-  text-decoration: none;
-  position: absolute;
-  top: 45px;
-  right: 25px;
-}
-a[href*='github']:hover {
-  background: white;
-  color: #000;
-}
 blockquote {
+  align-items: center;
+  border: 2px solid var(--color-gray-60);
+  border-left: 0;
+  border-right: 0;
+  clear: both;
+  display: flex;
+  font-size: 0.75em;
+  justify-content: center;
   margin: 0;
   padding: 0;
   line-height: 1.4em;
+  text-align: center;
+}
+blockquote p {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
 }
 blockquote a {
-  color: #990003;
-  display: block;
+  color: var(--color-gray-50);
+  display: inline;
+  flex: 0 0 auto;
+  margin: 0 1em;
 }
 hr {
   display: block;
@@ -356,6 +435,7 @@ ul {
   padding: 0;
 }
 h1 {
+  color: rgba(120,120,240,0.8);
   margin: 0;
   padding: 0;
   font-size: 3em;
@@ -363,20 +443,19 @@ h1 {
   font-weight: normal;
 }
 h2 {
+  color: #aaa;
   margin: 0;
   padding: 0;
-  font-size: 2em;
-  font-style: italic;
+  font-size: 1.75em;
   letter-spacing: -1px;
   font-weight: normal;
 }
 h3 {
-  border-bottom: 5px solid #000;
+  color: var(--color-primary);
   margin: 0;
-  padding: .25em 0 .25em .3em;
-  font-size: 2em;
-  font-style: italic;
-  font-weight: normal;
+  padding: .25em 0;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 h3+p,
 h3~ul {
@@ -390,7 +469,7 @@ h3~ul {
   padding-left: 1.5em;
 }
 h4 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin: 0;
 }
 ul li {
@@ -409,7 +488,6 @@ ul dl {
   width: 100%;
 }
 ul dl dd {
-  margin: 0 0 1em;
   padding: 0 2em 0 0;
   font-size: .8em;
   line-height: 1.5em;
@@ -456,23 +534,31 @@ dl em {
   margin: .15em 0 .5em;
 }
 #experience ~ dl dt {
-  float: left;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 #experience ~ dl dd {
-  float: right;
-  text-align: right;
-  width: 45%;
+  font-size: 1em;
+  margin-left: 0;
+}
+#experience ~ dl dd p {
+  margin: 0;
+}
+#experience ~ dl dd em {
+  color: var(--color-gray-30);
+  font-size: 0.75em;
 }
 #experience ~ p {
+  font-size: 0.9em;
+  margin-top: 0;
   width: 85%;
 }
 #experience ~ ul {
+  font-size: 0.9em;
   width: 85%;
 }
 #experience ~ ol li {
   border: 0;
-  font-size: 1em;
+  font-size: 0.9em;
 }
 #footer {
   display: none;
@@ -482,16 +568,14 @@ dl em {
   font-size: 0.8em;
   text-align: center;
 }
+.footer {
+  border-top: 1px solid var(--color-gray-40);
+  font-size: 0.75em;
+  text-align: center;
+  width: 100%;
+}
 
 @media screen and (min-width: 37.5em) {
-  body {
-    padding: 2em 0;
-  }
-  blockquote {
-    top: 10px;
-    right: 50px;
-    position: absolute;
-  }
   h1 {
     margin-top: .5em;
   }
@@ -508,50 +592,53 @@ dl em {
   }
 }
 
-</style>
-</head>
+        </style>
+    </head>
 
-<body class="">
+    <body class="">
+        <div class="container">
+            <div class="resume"><header class="header">
 
-<div class="container">
-	<header></header>
-    <div class="resume">
-        <h1>Erik Waibel</h1>
+<h1>Erik Waibel</h1>
 
 <h2>Senior Frontend Engineer</h2>
 
+</header>
+
+<section class="summary">
+
+<p>As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team&#8217;s development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.</p>
+
+</section>
+
 <blockquote>
-  <p><a href="https://www.github.com/ejwaibel">GitHub</a>
-  <a href="ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a>
-  480-331-1899</p>
+  <p><a href="mailto:ejwaibel+resume@gmail.com" title="" class="icon icon--email">ejwaibel+resume@gmail.com</a>
+  <a href="tel:14803311899" title="" class="icon icon--phone">+1 480-331-1899</a>
+  <a href="" title="" class="icon icon--location">Chandler, AZ</a>
+  <a href="https://www.github.com/ejwaibel" title="" class="icon icon--github">https://www.github.com/ejwaibel</a>
+  <a href="https://www.linkedin.com/in/ejwaibel" title="" class="icon icon--linkedin">https://www.linkedin.com/in/ejwaibel</a></p>
 </blockquote>
 
-<hr />
+<section class="main">
 
-<h3 id="summary">Summary</h3>
-
-<p>Passionate and motivated software developer focused on frontend web development using Vue, along with some backend experience. I have over 5 years of experience working on enterprise production software using modern front end technology stack. I bring a wealth of experience with regards to source control and frontend web development. Problem-solving is my second language. I am excited about all things related to technology and software development with a willingness to learn.</p>
-
-<h3 id="skills">Technical Skills</h3>
+<h3 id="skills">SKILLS</h3>
 
 <ul>
-<li>6+ years working with HTML5, SCSS, CSS3, JavaScript, jQuery, NodeJS, REST</li>
+<li>HTML5, CSS3, JavaScript, jQuery, NodeJS, REST</li>
 <li>Strong knowledge and experience with modern JavaScript frameworks (Angular, Vue.js, Backbone, Ember etc.)</li>
-<li>Expert in multiple source control software (SVN, Git [Gitlab, Github, Bitbucket], ClearCase)</li>
-<li>Proficient with SCSS, ES6, Grunt, Gulp, Yeoman, PHP, Webpack, Web Components</li>
+<li>Proficient with SCSS/LESS/PostCSS, ES6, Grunt, Gulp, Yeoman, PHP, Webpack, Web Components</li>
 <li>Advanced shell script development using Perl, bash, ksh</li>
 <li>Strong knowledge and experience with Angular, React, Vue.js, Express, MongoDB</li>
-<li>Knowledge and experience with DevOps, Docker, AWS</li>
-<li>Computer Science fundamentals in object-oriented design, data structures, and complexity analysis</li>
+<li>Experience with DevOps, Docker, AWS, Jenkins</li>
 </ul>
 
-<h3 id="experience">Experience</h3>
+<h3 id="experience">WORK EXPERIENCE</h3>
 
 <dl>
-<dt><h4>IRELO</h4></dt>
+<dt><h4>Lead Frontend Engineer | Senior Vue Developer</h4></dt>
 <dd>
-<p><em>Senior Frontend Engineer | Vue Developer</em>
-<strong>April 2018-Present</strong></p>
+<p>iRELO
+<em>04/2018 - Present</em></p>
 </dd>
 </dl>
 
@@ -559,9 +646,10 @@ dl em {
 
 <ul>
 <li>Architect custom VueJS components and integrate with new and existing applications across organization</li>
+<li>Practice tuning and maximizing performance of application and understanding of patterns and practices</li>
 <li>Utilized vue-cli 3.0 integration to perform JavaScript compilation and minification for all frontend development</li>
 <li>Created multiple components and sites from InVision UX designs</li>
-<li>Coordinate with PM in Asana scrum/sprint process to ensure all bugs &amp; features are completed on time</li>
+<li>Coordinate with PM in Asana agile methodology to ensure all bugs &amp; features are completed on time</li>
 <li>Generated global custom eslint and stylelint configurations for inclusion with all company projects</li>
 <li>Configured Netlify automated frontend builds and deployments</li>
 <li>Organized Git standardization and process through Gitlab and ensured developers conformed</li>
@@ -570,70 +658,66 @@ dl em {
 </ul>
 
 <dl>
-<dt><h4>Chandler Gilbert Community College</h4></dt>
+<dt><h4>Adjunct Faculty</h4></dt>
 <dd>
-<p><em>Adjunct Faculty - Computer Information Systems</em>
-<strong>January 2018-Present</strong></p>
+<p>Chandler Gilbert Community College
+<em>01/2018 - Present</em></p>
 </dd>
 </dl>
 
 <p>Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.</p>
 
 <dl>
-<dt><h4>General Motors IT</h4></dt>
+<dt><h4>Lead UI Engineer | Senior Web Developer</h4></dt>
 <dd>
-<p><em>Lead Web Developer</em>
-<strong>July 2014-April 2018</strong></p>
+<p>General Motors IT
+<em>07/2014 - 04/2018</em></p>
 </dd>
 </dl>
 
-<p>Lead web developer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Lead a team of 15 developers to increase their knowledge and performance within a fast paced development environment.</p>
+<p>Lead UI engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Lead a team of 15 developers to increase their knowledge and performance within a fast paced development environment.</p>
 
 <ul>
 <li>Applied CSS3 styles to modular components based on PSD styleguides</li>
-<li>Built multiple angular applications for inclusion into a Foundation framework</li>
+<li>Engineered robust, scalable and extendable JavaScript</li>
+<li>Built multiple angular applications for inclusion into a Bootstrap/Foundation framework</li>
 <li>Designed solution for custom SCSS inheritance to accomodate multiple shared projects</li>
 <li>Arhitected internal modular JavaScript solution with TerrificJS called &#8220;AtomicJS&#8221;</li>
-<li>Lead team of 20 developers to deliver 65 custom AEM components for opel.ie release</li>
-<li>Built custom solution for Gulp build process and enhanced based on project challenges</li>
-<li>Integrated 3 custom jQuery plugins into project&#8217;s custom AtomicJS framework</li>
+<li>Lead team of 20 developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries</li>
+<li>Built custom solution for Gulp build process and provided enhancements based on project challenges</li>
+<li>Integrated custom jQuery plugins into project&#8217;s custom AtomicJS framework</li>
 <li>Triaged bugs on a daily basis to ensure issues are resolved in time for production release</li>
 <li>Coordinated with business and design teams to ensure proper requirements for new features</li>
 <li>Researched advanced CSS &amp; JavaScript techniques to implement latest browser features and enhance the customer&#8217;s experience</li>
 <li>Performed Subversion and Git operations within a development and production environment</li>
-<li>Collaborated with IT team to enhance and fix issues with Mac OS computers</li>
 </ul>
 
 <dl>
-<dt><h4>iTRACS | Commscope</h4></dt>
+<dt><h4>Software Engineer II</h4></dt>
 <dd>
-<p><em>Software Engineer II</em>
-<strong>Nov. 2012-July 2014</strong></p>
+<p>iTRACS / Commscope
+<em>09/2012 - 07/2014</em></p>
 </dd>
 </dl>
 
 <p>Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.</p>
 
 <ul>
-<li>Engineered robust, scalable and extendable JavaScript</li>
 <li>Created and deployed advanced RESTful API interfaces with PHP and SOAP</li>
-<li>Converted raw images and layouts from a graphic designer into CSS3/HTML5 themes utilizing mustache.js</li>
-<li>Developed and maintained a large single-page web application that supports all major browsers and OS</li>
-<li>Built and extended custom AJAX methods using jQuery deferred</li>
+<li>Developed and maintained a large responsive single-page application supported on all major browsers and mobile devices</li>
 <li>Designed and developed advanced RESTful API interfaces with PHP and SOAP Web Services</li>
-<li>Extended existing jQuery UI widgets and built custom widgets</li>
+<li>Extended existing jQuery UI widgets with custom component widgets</li>
 <li>Performed Subversion and Git operations within a development and production environment</li>
 <li>Assisted in managing Git merge requests with multiple developers and branches through Gitlab</li>
-<li>Maintained central Git server and repository for all development</li>
 <li>Managed product enhancements and defects timely in an agile development process</li>
 <li>Cooperated with QA to release the initial version of customer-facing single-page web application on time with a team of three web developers and two web designers.</li>
 </ul>
 
 <dl>
-<dt><h4>Art Institute of Phoenix</h4></dt>
+<dt><h4>Adjunct Faculty</h4></dt>
 <dd>
-<p><em>Adjunct Professor - Graphic &amp; Web Design</em>
-<strong>Sept. 2010-Dec. 2014</strong></p>
+<p>Art Institute of Phoenix
+<em>09/2010 - 12/2014</em></p>
 </dd>
 </dl>
 
@@ -647,10 +731,10 @@ dl em {
 </ol>
 
 <dl>
-<dt><h4>Everything Just Works, LLC</h4></dt>
+<dt><h4>Owner | Consultant | Software Developer</h4></dt>
 <dd>
-<p><em>Owner, Software Developer</em>
-<strong>May 2010 - Dec. 2013</strong></p>
+<p>Everything Just Works, LLC
+<em>05/2010 - 10/2013</em></p>
 </dd>
 </dl>
 
@@ -672,10 +756,10 @@ dl em {
 </ul>
 
 <dl>
-<dt><h4>Insight Global</h4></dt>
+<dt><h4>Software Developer</h4></dt>
 <dd>
-<p><em>Software Developer, Contract w/Level 3 Communications</em>
-<strong>July 2012 - Oct. 2012</strong></p>
+<p>Insight Global, Contract w/Level 3 Communications
+<em>07/2012 - 10/2012</em></p>
 </dd>
 </dl>
 
@@ -687,10 +771,10 @@ dl em {
 </ul>
 
 <dl>
-<dt><h4>APEX Systems</h4></dt>
+<dt><h4>Systems Engineer</h4></dt>
 <dd>
-<p><em>Systems Engineer, Contract w/Wells Fargo</em>
-<strong>Oct. 2011 - June 2012</strong></p>
+<p>APEX Systems, Contract w/Wells Fargo
+<em>10/2011 - 06/2012</em></p>
 </dd>
 </dl>
 
@@ -703,10 +787,10 @@ dl em {
 </ul>
 
 <dl>
-<dt><h4>A Better Solution, Inc.</h4></dt>
+<dt><h4>Software Developer | SCM Consultant</h4></dt>
 <dd>
-<p><em>Software Developer, ClearCase Consultant</em>
-<strong>Apr. 2007 - June 2011</strong></p>
+<p>A Better Solution, Inc.
+<em>04/2007 - 06/2011</em></p>
 </dd>
 </dl>
 
@@ -720,34 +804,33 @@ dl em {
 </ul>
 
 <dl>
-<dt><h4>BlueHornet.com</h4></dt>
+<dt><h4>Jr. PHP Developer</h4></dt>
 <dd>
-<p><em>Jr. PHP Developer</em>
-<strong>Sept. 2006 - Apr. 2007</strong></p>
+<p>BlueHornet.com
+<em>09/2006 - 04/2007</em></p>
 </dd>
 </dl>
 
-<p>Worked as Junior PHP Developer to help enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.</p>
+<p>Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.</p>
 
-<h3>Education</h3>
+<h3>EDUCATION</h3>
 
 <dl>
-<dt><h4>California State Polytechnic University</h4></dt>
+<dt><h4>B.S., Computer Science</h4></dt>
 <dd>
-<p><em>Pomona, CA</em>
-<strong>B.S., Computer Science</strong></p>
+<p>California State Polytechnic University
+<em>09/2001 - 08/2006</em></p>
 </dd>
 </dl>
 
-<hr />
+</section>
 
-<h3 id="footer">Footer</h3>
+<footer class="footer">
 
-<p>Erik Waibel &#8212; 480-331-1899 &#8212; <a href="ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a></p>
+<p>Erik Waibel &#8212; <a href="tel:+14803311899">480-331-1899</a> &#8212; <a href="mailto:ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a></p>
 
-    </div>
-    <footer></footer>
+</footer>
 </div>
-
-</body>
+        </div>
+    </body>
 </html>
