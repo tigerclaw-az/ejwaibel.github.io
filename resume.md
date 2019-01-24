@@ -1,42 +1,81 @@
-<header class="header" markdown="1">
+<header id="header" markdown="1">
 # Erik Waibel
 ## Senior Frontend Engineer
 </header>
 
-<section class="summary" markdown="1">
+<section id="summary" markdown="1">
 As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team's development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.
 </section>
 
+<section id="contact" markdown="1">
 > [ejwaibel+resume@gmail.com](mailto:ejwaibel+resume@gmail.com) {.icon .icon--email}
-> [+1 480-331-1899](tel:14803311899) {.icon .icon--phone}
-> [Chandler, AZ]() {.icon .icon--location}
 > [https://www.github.com/ejwaibel](https://www.github.com/ejwaibel) {.icon .icon--github}
+> [+1 480-331-1899](tel:14803311899) {.icon .icon--phone}
 > [https://www.linkedin.com/in/ejwaibel](https://www.linkedin.com/in/ejwaibel) {.icon .icon--linkedin}
+</section>
 
 <section class="main" markdown="1">
+<aside class="sidebar" markdown="1">
 ### SKILLS {#skills}
 
-* HTML5, CSS3, JavaScript, jQuery, NodeJS, REST
-* Strong knowledge and experience with modern JavaScript frameworks (Angular, Vue.js, Backbone, Ember etc.)
-* Proficient with SCSS/LESS/PostCSS, ES6, Grunt, Gulp, Yeoman, PHP, Webpack, Web Components
-* Advanced shell script development using Perl, bash, ksh
-* Strong knowledge and experience with Angular, React, Vue.js, Express, MongoDB
-* Experience with DevOps, Docker, AWS, Jenkins
+#### Expert
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* SCSS/LESS/PostCSS
+* Git
+* NodeJS
+* REST
+* ES6/ES2017
+* Grunt
+* Gulp
+* SDLC
+* Agile Method
+* Linux
 
+#### Intermediate
+* Vue.js
+* Web Components
+* Angular
+* Nuxt
+* Perl
+* bash
+* Webpack
+* Express
+* PHP
+* MongoDB
+* SQL
+* Photoshop
+* SEO
+* WordPress
+
+#### Experienced
+* DevOps
+* Docker
+* AWS
+* Jenkins
+
+### EDUCATION {#education}
+
+#### B.S., Computer Science
+: California State Polytechnic University
+  *09/2001 - 08/2006*
+</aside>
+<section class="content" markdown="1">
 ### WORK EXPERIENCE {#experience}
 
 #### Lead Frontend Engineer | Senior Vue Developer
 : iRELO
   *04/2018 - Present*
 
-Lead frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue and Nuxt.
+Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue.js and Nuxt. Design & develop VueJS components to integrate with new and existing applications across the organization.
 
-* Architect custom VueJS components and integrate with new and existing applications across organization
-* Practice tuning and maximizing performance of application and understanding of patterns and practices
-* Utilized vue-cli 3.0 integration to perform JavaScript compilation and minification for all frontend development
-* Created multiple components and sites from InVision UX designs
-* Coordinate with PM in Asana agile methodology to ensure all bugs & features are completed on time
-* Generated global custom eslint and stylelint configurations for inclusion with all company projects
+* Tune and maximize performance of web applications in order to reduce page load time by 30%, while continuing to learn new patterns and best practices
+* Utilized Webpack build integration to perform JavaScript compilation and minification for all frontend development, which reduced final asset sizes by 80%
+* Interface with design team and ensure provided assets and layout will conform with best practices for responsive & mobile first
+* Coordinate with PM in Asana utilizing an agile process to ensure all bugs & features are completed on time
+* Developed custom eslint and stylelint configurations for inclusion with all company projects
 * Organized Git standardization and process through Gitlab, while training and supporting developers
 * Produced Git CLI script to generate automatic changelog and Gitlab release
 * Integrated latest JavaScript standards and ES2017 features
@@ -45,22 +84,22 @@ Lead frontend engineer/architect responsible for building and maintaining 10 sin
 : Chandler Gilbert Community College
   *01/2018 - Present*
 
-Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.
+Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.
 
 #### Lead UI Engineer | Senior Web Developer
-: General Motors IT
+: General Motors IT - Global Brands
   *07/2014 - 04/2018*
 
-Lead UI engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Lead a team of 15 developers to increase their knowledge and performance within a fast paced development environment.
+Started as an individual contributor migrating 3rd party web applications into GM ecosystem. Promoted to Principal UI Engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites.
 
+* Arhitected JavaScript web components solution with jQuery & TerrificJS called "AtomicJS"
+* Lead team of 15+ developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries
+* Implemented solution for functional website integration of social media, Google analytics, and SEO within AEM infrastructure
+* Analyzed performance of brand sites and executed plan to increase initial page load time by 30% and decrease asset sizes by 25%
 * Applied CSS3 styles to modular components based on PSD styleguides
-* Engineered robust, scalable and extendable JavaScript
-* Built multiple angular applications for inclusion into a Bootstrap/Foundation framework
+* Produced multiple angular applications for inclusion into a Bootstrap/Foundation framework
 * Designed solution for custom SCSS inheritance to accomodate multiple shared projects
-* Arhitected internal modular JavaScript solution with TerrificJS called "AtomicJS"
-* Lead team of 20 developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries
-* Built custom solution for Gulp build process and provided enhancements based on project challenges
-* Integrated custom jQuery plugins into project's custom AtomicJS framework
+* Designed solution for internal Gulp build process and provided enhancements based on project challenges, which helped decrease build time by 2 hours
 * Triaged bugs on a daily basis to ensure issues are resolved in time for production release
 * Coordinated with business and design teams to ensure proper requirements for new features
 * Researched advanced CSS & JavaScript techniques to implement latest browser features and enhance the customer's experience
@@ -70,16 +109,15 @@ Lead UI engineer responsible for end to end feature enablement across the UI lay
 : iTRACS / Commscope
   *09/2012 - 07/2014*
 
-Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
+Individual contributor responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
 
-* Created and deployed advanced RESTful API interfaces with PHP and SOAP
+* Created and deployed 10+ advanced RESTful API interfaces with PHP and SOAP Web Services, which had to support internal and external API requests
 * Developed and maintained a large responsive single-page application supported on all major browsers and mobile devices
-* Designed and developed advanced RESTful API interfaces with PHP and SOAP Web Services
 * Extended existing jQuery UI widgets with custom component widgets
 * Performed Subversion and Git operations within a development and production environment
 * Assisted in managing Git merge requests with multiple developers and branches through Gitlab
-* Managed product enhancements and defects timely in an agile development process
-* Cooperated with QA to release the initial version of customer-facing single-page web application on time with a team of three web developers and two web designers.
+* Managed product enhancements and defects in a time-senstitive and high pressure agile development process with monthly production releases
+* Coordinated with QA to release the initial version of customer-facing single-page web application on time with a team of 3 web developers and 2 web designers.
 
 #### Adjunct Faculty
 : Art Institute of Phoenix
@@ -143,15 +181,11 @@ Everything Just Works, LLC focused on giving computer users a one-on-one interac
   *09/2006 - 04/2007*
 
 Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.
-
-### EDUCATION
-
-#### B.S., Computer Science
-: California State Polytechnic University
-  *09/2001 - 08/2006*
-
+</section>
 </section>
 
-<footer class="footer" markdown="1">
+<footer id="footer" markdown="1">
 Erik Waibel -- [480-331-1899](tel:+14803311899) -- [ejwaibel+resume@gmail.com](mailto:ejwaibel+resume@gmail.com)
+
+> *Generated from Markdown with: [https://github.com/there4/markdown-resume](https://github.com/there4/markdown-resume)
 </footer>

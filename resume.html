@@ -32,7 +32,7 @@
   --color-primary: var(--color-blue);
   --color-primary-hover: #75AEBD;
   --color-danger: var(--color-red);
-  --color-success: var(--color-red);
+  --color-success: var(--color-green);
   --color-warning: var(--color-orange);
   --disabled-color: var(--color-gray-30);
   --disabled-bg: var(--color-gray-10);
@@ -300,6 +300,7 @@ table {
 
 body.pdf {
   color: black;
+  font-size: 20px;
 }
 body.pdf a {
   text-decoration: none;
@@ -317,6 +318,9 @@ body.pdf .resume {
   position: relative;
   padding: 20px 0;
 }
+body.pdf .sidebar {
+  order: 1;
+}
 body.pdf h1 {
   letter-spacing: 0;
   margin-top: 0;
@@ -331,6 +335,28 @@ body.pdf h2 {
 }
 body.pdf h3 {
   font-style: normal;
+}
+body.pdf dl dd {
+  font-size: 1em;
+}
+body.pdf dl strong {
+  font-size: 1.5em;
+}
+body.pdf dl em {
+  font-size: 1.5em;
+}
+body.pdf #contact a {
+  color: black;
+  font-size: 1.25em;
+}
+body.pdf #contact a[href~='github']::before {
+  content: "\A";
+  white-space: pre;
+}
+#experience ~ dl,
+#experience ~ p,
+#experience ~ ul {
+  page-break-before: avoid;
 }
 
 .clearfix {
@@ -371,12 +397,13 @@ ul dl dt {
   font-style: italic;
 }
 .main {
+  display: flex;
   margin-top: 1em;
 }
-.header,
-.summary,
 .main,
-.footer {
+#header,
+#summary,
+#footer {
   padding: 0 2em;
 }
 a[href$='.pdf'] {
@@ -388,33 +415,6 @@ a[href$='.pdf'] {
   position: absolute;
   top: 15px;
   right: 25px;
-}
-blockquote {
-  align-items: center;
-  border: 2px solid var(--color-gray-60);
-  border-left: 0;
-  border-right: 0;
-  clear: both;
-  display: flex;
-  font-size: 0.75em;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-  line-height: 1.4em;
-  text-align: center;
-}
-blockquote p {
-  align-items: center;
-  display: flex;
-  flex-flow: wrap;
-  justify-content: center;
-  width: 100%;
-}
-blockquote a {
-  color: var(--color-gray-50);
-  display: inline;
-  flex: 0 0 auto;
-  margin: 0 1em;
 }
 hr {
   display: block;
@@ -435,7 +435,7 @@ ul {
   padding: 0;
 }
 h1 {
-  color: rgba(120,120,240,0.8);
+  color: var(--color-primary);
   margin: 0;
   padding: 0;
   font-size: 3em;
@@ -533,48 +533,96 @@ dl em {
   font-size: 1.2em;
   margin: .15em 0 .5em;
 }
-#experience ~ dl dt {
+#contact blockquote {
+  align-items: center;
+  border: 2px solid var(--color-gray-60);
+  border-left: 0;
+  border-right: 0;
+  clear: both;
+  display: flex;
+  font-size: 0.75em;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  text-align: center;
+}
+#contact blockquote p {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#contact blockquote a {
+  color: var(--color-gray-50);
+  display: inline;
+  flex: 0 0 auto;
+  margin: 0 1em;
+}
+#contact blockquote a[href*='github']::before {
+  content: "\A";
+  white-space: pre;
+}
+#skills ~ ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+#skills ~ ul li {
+  background-color: var(--color-gray-10);
+  border-radius: 0.5em;
+  margin-bottom: 0.25em;
+  padding: 0.5em;
+}
+#experience ~ dl dt,
+#education ~ dl dt {
   margin-top: 0.5em;
 }
-#experience ~ dl dd {
+#experience ~ dl dd,
+#education ~ dl dd {
   font-size: 1em;
   margin-left: 0;
 }
-#experience ~ dl dd p {
+#experience ~ dl dd p,
+#education ~ dl dd p {
   margin: 0;
 }
-#experience ~ dl dd em {
-  color: var(--color-gray-30);
+#experience ~ dl dd em,
+#education ~ dl dd em {
+  color: var(--color-gray-40);
   font-size: 0.75em;
 }
-#experience ~ p {
+#experience ~ p,
+#education ~ p {
   font-size: 0.9em;
   margin-top: 0;
-  width: 85%;
+  width: 90%;
 }
-#experience ~ ul {
+#experience ~ ul,
+#education ~ ul {
   font-size: 0.9em;
-  width: 85%;
+  width: 90%;
 }
-#experience ~ ol li {
+#experience ~ ol li,
+#education ~ ol li {
   border: 0;
   font-size: 0.9em;
 }
 #footer {
-  display: none;
-}
-#footer + p {
-  width: 100%;
-  font-size: 0.8em;
-  text-align: center;
-}
-.footer {
   border-top: 1px solid var(--color-gray-40);
   font-size: 0.75em;
   text-align: center;
   width: 100%;
 }
 
+@media screen and (min-width: 15em) {
+  .sidebar {
+    order: 0;
+  }
+}
 @media screen and (min-width: 37.5em) {
   h1 {
     margin-top: .5em;
@@ -591,13 +639,22 @@ dl em {
     border-top: none;
   }
 }
+@media screen and (min-width: 57em) {
+  .sidebar {
+    order: 1;
+    width: 40%;
+  }
+  .content {
+    width: 100%;
+  }
+}
 
         </style>
     </head>
 
     <body class="">
         <div class="container">
-            <div class="resume"><header class="header">
+            <div class="resume"><header id="header">
 
 <h1>Erik Waibel</h1>
 
@@ -605,32 +662,90 @@ dl em {
 
 </header>
 
-<section class="summary">
+<section id="summary">
 
 <p>As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team&#8217;s development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.</p>
 
 </section>
 
+<section id="contact">
+
 <blockquote>
   <p><a href="mailto:ejwaibel+resume@gmail.com" title="" class="icon icon--email">ejwaibel+resume@gmail.com</a>
   <a href="tel:14803311899" title="" class="icon icon--phone">+1 480-331-1899</a>
-  <a href="" title="" class="icon icon--location">Chandler, AZ</a>
+  <span class="icon icon--location">Chandler, AZ</span>
   <a href="https://www.github.com/ejwaibel" title="" class="icon icon--github">https://www.github.com/ejwaibel</a>
   <a href="https://www.linkedin.com/in/ejwaibel" title="" class="icon icon--linkedin">https://www.linkedin.com/in/ejwaibel</a></p>
 </blockquote>
 
+</section>
+
 <section class="main">
+
+<aside class="sidebar">
 
 <h3 id="skills">SKILLS</h3>
 
+<h4>Expert</h4>
+
 <ul>
-<li>HTML5, CSS3, JavaScript, jQuery, NodeJS, REST</li>
-<li>Strong knowledge and experience with modern JavaScript frameworks (Angular, Vue.js, Backbone, Ember etc.)</li>
-<li>Proficient with SCSS/LESS/PostCSS, ES6, Grunt, Gulp, Yeoman, PHP, Webpack, Web Components</li>
-<li>Advanced shell script development using Perl, bash, ksh</li>
-<li>Strong knowledge and experience with Angular, React, Vue.js, Express, MongoDB</li>
-<li>Experience with DevOps, Docker, AWS, Jenkins</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>JavaScript</li>
+<li>jQuery</li>
+<li>SCSS/LESS/PostCSS</li>
+<li>Git</li>
+<li>NodeJS</li>
+<li>REST</li>
+<li>ES6/ES2017</li>
+<li>Grunt</li>
+<li>Gulp</li>
+<li>SDLC</li>
+<li>Agile Method</li>
+<li>Linux</li>
 </ul>
+
+<h4>Intermediate</h4>
+
+<ul>
+<li>Vue.js</li>
+<li>Web Components</li>
+<li>Angular</li>
+<li>Nuxt</li>
+<li>Perl</li>
+<li>bash</li>
+<li>Webpack</li>
+<li>Express</li>
+<li>PHP</li>
+<li>MongoDB</li>
+<li>SQL</li>
+<li>Photoshop</li>
+<li>SEO</li>
+<li>WordPress</li>
+</ul>
+
+<h4>Experienced</h4>
+
+<ul>
+<li>DevOps</li>
+<li>Docker</li>
+<li>AWS</li>
+<li>Jenkins</li>
+</ul>
+
+<h3 id="education">EDUCATION</h3>
+
+<dl>
+<dt><h4>B.S., Computer Science</h4></dt>
+<dd>
+<p>California State Polytechnic University
+<em>09/2001 - 08/2006</em></p>
+</dd>
+</dl>
+
+</aside>
+
+<section class="content">
 
 <h3 id="experience">WORK EXPERIENCE</h3>
 
@@ -642,19 +757,17 @@ dl em {
 </dd>
 </dl>
 
-<p>Lead frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue and Nuxt.</p>
+<p>Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue.js and Nuxt. Design &amp; develop VueJS components to integrate with new and existing applications across the organization.</p>
 
 <ul>
-<li>Architect custom VueJS components and integrate with new and existing applications across organization</li>
-<li>Practice tuning and maximizing performance of application and understanding of patterns and practices</li>
-<li>Utilized vue-cli 3.0 integration to perform JavaScript compilation and minification for all frontend development</li>
-<li>Created multiple components and sites from InVision UX designs</li>
-<li>Coordinate with PM in Asana agile methodology to ensure all bugs &amp; features are completed on time</li>
-<li>Generated global custom eslint and stylelint configurations for inclusion with all company projects</li>
-<li>Configured Netlify automated frontend builds and deployments</li>
-<li>Organized Git standardization and process through Gitlab and ensured developers conformed</li>
+<li>Tune and maximize performance of web applications in order to reduce page load time by 30%, while continuing to learn new patterns and best practices</li>
+<li>Utilized Webpack build integration to perform JavaScript compilation and minification for all frontend development, which reduced final asset sizes by 80%</li>
+<li>Interface with design team and ensure provided assets and layout will conform with best practices for responsive &amp; mobile first</li>
+<li>Coordinate with PM in Asana utilizing an agile process to ensure all bugs &amp; features are completed on time</li>
+<li>Developed custom eslint and stylelint configurations for inclusion with all company projects</li>
+<li>Organized Git standardization and process through Gitlab, while training and supporting developers</li>
 <li>Produced Git CLI script to generate automatic changelog and Gitlab release</li>
-<li>Integrated with latest JavaScript standards and ES2017 features</li>
+<li>Integrated latest JavaScript standards and ES2017 features</li>
 </ul>
 
 <dl>
@@ -665,27 +778,27 @@ dl em {
 </dd>
 </dl>
 
-<p>Adjunct faculty in the Computer Information Systems department with a focus on web development courses integrating HTML5, CSS3, and JavaScript.</p>
+<p>Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.</p>
 
 <dl>
 <dt><h4>Lead UI Engineer | Senior Web Developer</h4></dt>
 <dd>
-<p>General Motors IT
+<p>General Motors IT - Global Brands
 <em>07/2014 - 04/2018</em></p>
 </dd>
 </dl>
 
-<p>Lead UI engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Lead a team of 15 developers to increase their knowledge and performance within a fast paced development environment.</p>
+<p>Started as an individual contributor migrating 3rd party web applications into GM ecosystem. Promoted to Principal UI Engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites.</p>
 
 <ul>
+<li>Arhitected JavaScript web components solution with jQuery &amp; TerrificJS called &#8220;AtomicJS&#8221;</li>
+<li>Lead team of 15+ developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries</li>
+<li>Implemented solution for functional website integration of social media, Google analytics, and SEO within AEM infrastructure</li>
+<li>Analyzed performance of brand sites and executed plan to increase initial page load time by 30% and decrease asset sizes by 25%</li>
 <li>Applied CSS3 styles to modular components based on PSD styleguides</li>
-<li>Engineered robust, scalable and extendable JavaScript</li>
-<li>Built multiple angular applications for inclusion into a Bootstrap/Foundation framework</li>
+<li>Produced multiple angular applications for inclusion into a Bootstrap/Foundation framework</li>
 <li>Designed solution for custom SCSS inheritance to accomodate multiple shared projects</li>
-<li>Arhitected internal modular JavaScript solution with TerrificJS called &#8220;AtomicJS&#8221;</li>
-<li>Lead team of 20 developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries</li>
-<li>Built custom solution for Gulp build process and provided enhancements based on project challenges</li>
-<li>Integrated custom jQuery plugins into project&#8217;s custom AtomicJS framework</li>
+<li>Designed solution for internal Gulp build process and provided enhancements based on project challenges, which helped decrease build time by 2 hours</li>
 <li>Triaged bugs on a daily basis to ensure issues are resolved in time for production release</li>
 <li>Coordinated with business and design teams to ensure proper requirements for new features</li>
 <li>Researched advanced CSS &amp; JavaScript techniques to implement latest browser features and enhance the customer&#8217;s experience</li>
@@ -700,17 +813,16 @@ dl em {
 </dd>
 </dl>
 
-<p>Responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.</p>
+<p>Individual contributor responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.</p>
 
 <ul>
-<li>Created and deployed advanced RESTful API interfaces with PHP and SOAP</li>
+<li>Created and deployed 10+ advanced RESTful API interfaces with PHP and SOAP Web Services, which had to support internal and external API requests</li>
 <li>Developed and maintained a large responsive single-page application supported on all major browsers and mobile devices</li>
-<li>Designed and developed advanced RESTful API interfaces with PHP and SOAP Web Services</li>
 <li>Extended existing jQuery UI widgets with custom component widgets</li>
 <li>Performed Subversion and Git operations within a development and production environment</li>
 <li>Assisted in managing Git merge requests with multiple developers and branches through Gitlab</li>
-<li>Managed product enhancements and defects timely in an agile development process</li>
-<li>Cooperated with QA to release the initial version of customer-facing single-page web application on time with a team of three web developers and two web designers.</li>
+<li>Managed product enhancements and defects in a time-senstitive and high pressure agile development process with monthly production releases</li>
+<li>Coordinated with QA to release the initial version of customer-facing single-page web application on time with a team of 3 web developers and 2 web designers.</li>
 </ul>
 
 <dl>
@@ -813,21 +925,17 @@ dl em {
 
 <p>Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.</p>
 
-<h3>EDUCATION</h3>
-
-<dl>
-<dt><h4>B.S., Computer Science</h4></dt>
-<dd>
-<p>California State Polytechnic University
-<em>09/2001 - 08/2006</em></p>
-</dd>
-</dl>
+</section>
 
 </section>
 
-<footer class="footer">
+<footer id="footer">
 
 <p>Erik Waibel &#8212; <a href="tel:+14803311899">480-331-1899</a> &#8212; <a href="mailto:ejwaibel+resume@gmail.com">ejwaibel+resume@gmail.com</a></p>
+
+<blockquote>
+  <p>*Generated from Markdown with: <a href="https://github.com/there4/markdown-resume">https://github.com/there4/markdown-resume</a></p>
+</blockquote>
 
 </footer>
 </div>
