@@ -4,7 +4,7 @@
 </header>
 
 <section id="summary" markdown="1">
-As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team's development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.
+As a passionate and self-motivated lead JavaScript engineer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team's development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.
 </section>
 
 <section id="contact" markdown="1">
@@ -65,7 +65,7 @@ As a passionate and self-motivated lead software developer, I have 5+ years expe
 <section class="content" markdown="1">
 ### WORK EXPERIENCE {#experience}
 
-#### Lead Frontend Engineer | Senior Vue Developer
+#### Lead Frontend Engineer | Vue Developer
 : iRELO
   *04/2018 - Present*
 
@@ -86,7 +86,7 @@ Principal frontend engineer/architect responsible for building and maintaining 1
 
 Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.
 
-#### Lead UI Engineer | Senior Web Developer
+#### Lead JavaScript Engineer | Senior Web Developer
 : General Motors IT - Global Brands
   *07/2014 - 04/2018*
 
@@ -130,7 +130,7 @@ Adjunct professor for Graphic & Web Design department, with average class size o
 3.  *Intro / Intermediate / Advanced Authoring*
 4.  *User Centered Design*
 
-#### Owner | Consultant | Software Developer
+#### Owner | IT Engineer | Software Developer
 : Everything Just Works, LLC
   *05/2010 - 10/2013*
 
