@@ -307,7 +307,7 @@ body.pdf a {
   color: black;
 }
 body.pdf .container {
-  width: 1080px;
+  width: 1140px;
   margin: 0 auto;
   padding: 0;
   background: none;
@@ -316,10 +316,16 @@ body.pdf .container {
 }
 body.pdf .resume {
   position: relative;
-  padding: 20px 0;
+  padding: 10px 12px;
 }
 body.pdf .sidebar {
   order: 1;
+}
+body.pdf .main,
+body.pdf #header,
+body.pdf #summary,
+body.pdf #footer {
+  padding: 0;
 }
 body.pdf h1 {
   letter-spacing: 0;
@@ -336,27 +342,31 @@ body.pdf h2 {
 body.pdf h3 {
   font-style: normal;
 }
-body.pdf dl dd {
-  font-size: 1em;
-}
-body.pdf dl strong {
-  font-size: 1.5em;
-}
-body.pdf dl em {
-  font-size: 1.5em;
-}
 body.pdf #contact a {
   color: black;
   font-size: 1.25em;
 }
-body.pdf #contact a[href~='github']::before {
-  content: "\A";
-  white-space: pre;
-}
-#experience ~ dl,
-#experience ~ p,
-#experience ~ ul {
+body.pdf #experience ~ p,
+body.pdf #experience ~ ul {
+  page-break-after: avoid;
   page-break-before: avoid;
+  page-break-inside: avoid;
+}
+body.pdf #experience ~ p,
+body.pdf #experience ~ ul {
+  font-size: 1em;
+}
+body.pdf #experience ~ dl {
+  font-size: 1em;
+  page-break-after: avoid;
+  page-break-before: auto;
+  page-break-inside: avoid;
+}
+body.pdf #experience ~ dl dd {
+  font-size: inherit;
+  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid;
 }
 
 .clearfix {
@@ -397,8 +407,12 @@ ul dl dt {
   font-style: italic;
 }
 .main {
-  display: flex;
   margin-top: 1em;
+}
+.sidebar {
+  float: right;
+  margin-left: 1.75em;
+  width: 30%;
 }
 .main,
 #header,
@@ -469,7 +483,7 @@ h3~ul {
   padding-left: 1.5em;
 }
 h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 0;
 }
 ul li {
@@ -512,7 +526,6 @@ ol li:nth-child(1) {
 }
 dl {
   display: inline-block;
-  width: 95%;
   margin: 0;
   padding: 0;
 }
@@ -557,12 +570,8 @@ dl em {
 #contact blockquote a {
   color: var(--color-gray-50);
   display: inline;
-  flex: 0 0 auto;
-  margin: 0 1em;
-}
-#contact blockquote a[href*='github']::before {
-  content: "\A";
-  white-space: pre;
+  flex: 1 0 50%;
+  margin: 0.25em 0;
 }
 #skills ~ ul {
   display: flex;
@@ -577,9 +586,17 @@ dl em {
   margin-bottom: 0.25em;
   padding: 0.5em;
 }
+#experience ~ dl,
+#education ~ dl {
+  margin-bottom: 0.5em;
+}
 #experience ~ dl dt,
 #education ~ dl dt {
   margin-top: 0.5em;
+}
+#experience ~ dl dt h4,
+#education ~ dl dt h4 {
+  font-size: 1.4em;
 }
 #experience ~ dl dd,
 #education ~ dl dd {
@@ -597,19 +614,21 @@ dl em {
 }
 #experience ~ p,
 #education ~ p {
-  font-size: 0.9em;
+  font-size: 0.95em;
   margin-top: 0;
-  width: 90%;
 }
 #experience ~ ul,
 #education ~ ul {
-  font-size: 0.9em;
-  width: 90%;
+  font-size: 0.95em;
 }
 #experience ~ ol li,
 #education ~ ol li {
   border: 0;
   font-size: 0.9em;
+}
+#experience ~ dl dd p {
+  display: flex;
+  justify-content: space-between;
 }
 #footer {
   border-top: 1px solid var(--color-gray-40);
@@ -642,10 +661,6 @@ dl em {
 @media screen and (min-width: 57em) {
   .sidebar {
     order: 1;
-    width: 40%;
-  }
-  .content {
-    width: 100%;
   }
 }
 
@@ -664,7 +679,7 @@ dl em {
 
 <section id="summary">
 
-<p>As a passionate and self-motivated lead software developer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team&#8217;s development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.</p>
+<p>As a passionate and self-motivated lead JavaScript engineer, I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites. I helped reduce our team&#8217;s development time by 20% with implementation of Git flow methodology and best practices. I have strong communication skills and can thrive under any high pressure environment.</p>
 
 </section>
 
@@ -672,9 +687,8 @@ dl em {
 
 <blockquote>
   <p><a href="mailto:ejwaibel+resume@gmail.com" title="" class="icon icon--email">ejwaibel+resume@gmail.com</a>
-  <a href="tel:14803311899" title="" class="icon icon--phone">+1 480-331-1899</a>
-  <span class="icon icon--location">Chandler, AZ</span>
   <a href="https://www.github.com/ejwaibel" title="" class="icon icon--github">https://www.github.com/ejwaibel</a>
+  <a href="tel:14803311899" title="" class="icon icon--phone">+1 480-331-1899</a>
   <a href="https://www.linkedin.com/in/ejwaibel" title="" class="icon icon--linkedin">https://www.linkedin.com/in/ejwaibel</a></p>
 </blockquote>
 
@@ -750,7 +764,7 @@ dl em {
 <h3 id="experience">WORK EXPERIENCE</h3>
 
 <dl>
-<dt><h4>Lead Frontend Engineer | Senior Vue Developer</h4></dt>
+<dt><h4>Lead Frontend Engineer | Vue Developer</h4></dt>
 <dd>
 <p>iRELO
 <em>04/2018 - Present</em></p>
@@ -781,7 +795,7 @@ dl em {
 <p>Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.</p>
 
 <dl>
-<dt><h4>Lead UI Engineer | Senior Web Developer</h4></dt>
+<dt><h4>Lead JavaScript Engineer | Senior Web Developer</h4></dt>
 <dd>
 <p>General Motors IT - Global Brands
 <em>07/2014 - 04/2018</em></p>
@@ -833,7 +847,7 @@ dl em {
 </dd>
 </dl>
 
-<p>Adjunct professor for Graphic &amp; Web Design department, with average class size of 12 students.</p>
+<p>Adjunct faculty for Graphic &amp; Web Design department, with average class size of 12 students.</p>
 
 <ol>
 <li><em>Intro to Programming</em></li>
@@ -843,7 +857,7 @@ dl em {
 </ol>
 
 <dl>
-<dt><h4>Owner | Consultant | Software Developer</h4></dt>
+<dt><h4>Owner | IT Engineer | Software Developer</h4></dt>
 <dd>
 <p>Everything Just Works, LLC
 <em>05/2010 - 10/2013</em></p>

@@ -30,24 +30,28 @@ As a passionate and self-motivated lead JavaScript engineer, I have 5+ years exp
 * ES6/ES2017
 * Grunt
 * Gulp
+* Perl
 * SDLC
 * Agile Method
+* SCM
 * Linux
 
 #### Intermediate
+* shell
 * Vue.js
+* Nuxt
 * Web Components
 * Angular
-* Nuxt
-* Perl
-* bash
 * Webpack
 * Express
 * PHP
 * MongoDB
-* SQL
+* MySQL
+* MSSQL
+* Oracle
 * Photoshop
 * SEO
+* AEM
 * WordPress
 
 #### Experienced
@@ -55,12 +59,8 @@ As a passionate and self-motivated lead JavaScript engineer, I have 5+ years exp
 * Docker
 * AWS
 * Jenkins
+* Java
 
-### EDUCATION {#education}
-
-#### B.S., Computer Science
-: California State Polytechnic University
-  *09/2001 - 08/2006*
 </aside>
 <section class="content" markdown="1">
 ### WORK EXPERIENCE {#experience}
@@ -123,25 +123,19 @@ Individual contributor responsible for the construction and implementation of an
 : Art Institute of Phoenix
   *09/2010 - 12/2014*
 
-Adjunct professor for Graphic & Web Design department, with average class size of 12 students.
-
-1.  *Intro to Programming*
-2.  *Intro / Intermediate / Advanced Scripting*
-3.  *Intro / Intermediate / Advanced Authoring*
-4.  *User Centered Design*
+Developed and taught 8 courses as an adjunct faculty in the Graphic & Web Design department, with average class size of 12 students.
 
 #### Owner | IT Engineer | Software Developer
 : Everything Just Works, LLC
   *05/2010 - 10/2013*
 
-Everything Just Works, LLC focused on giving computer users a one-on-one interaction with computer repair gurus.  You should be able to understand your computer and have the best experience possible.  We want to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren't stuck paying someone to recover their data.
+Everything Just Works, LLC focused on giving computer users a one-on-one interaction with computer repair gurus. I wanted to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren't stuck paying someone to recover their data. Worked as a software consultant developing custom WordPress integrations for 5 clients.
 
 * Built custom website for Realty Company that would allow users to search for houses based on a given MLS listing.
   * PHP application with IIS 7.5 and Microsoft SQL 2008 database
   * Object Oriented PHP5 from scratch with IIS 7.5 and MSSQL 2008 integration.
   * Developed custom JavaScript algorithm with Google Maps API to calculate distances between multiple addresses
   * Built custom jQuery plugin to generate tabular data records
-* Developed the “Conditional Questions” add-on using PHP & jQuery for the Event Espresso WordPress plugin.
 * Diagnosed and repaired local and small business websites that use WordPress.
 * Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) and/or client requests.
 * Eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.
@@ -181,6 +175,12 @@ Everything Just Works, LLC focused on giving computer users a one-on-one interac
   *09/2006 - 04/2007*
 
 Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.
+
+### EDUCATION {#education}
+
+#### B.S., Computer Science
+: California State Polytechnic University
+  *09/2001 - 08/2006*
 </section>
 </section>
 
