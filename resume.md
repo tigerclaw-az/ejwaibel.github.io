@@ -44,6 +44,8 @@ As a passionate and self-motivated lead JavaScript engineer, I have 5+ years exp
 * Angular
 * Webpack
 * Express
+* Unit Tests (Jasmine)
+* E2E Tests (Cypress)
 * PHP
 * MongoDB
 * MySQL
@@ -69,7 +71,7 @@ As a passionate and self-motivated lead JavaScript engineer, I have 5+ years exp
 : iRELO
   *04/2018 - Present*
 
-Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue.js and Nuxt. Design & develop VueJS components to integrate with new and existing applications across the organization.
+Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing latest frontend technology stacks. Design & develop Vue.js components to integrate with new and existing applications across the organization.
 
 * Tune and maximize performance of web applications in order to reduce page load time by 30%, while continuing to learn new patterns and best practices
 * Utilized Webpack build integration to perform JavaScript compilation and minification for all frontend development, which reduced final asset sizes by 80%

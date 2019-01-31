@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta http-equiv="refresh" content="yes" />
         <link
             href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
             rel="stylesheet"
@@ -37,7 +36,6 @@
   --disabled-color: var(--color-gray-30);
   --disabled-bg: var(--color-gray-10);
 }
-
 
 .icon::before {
   display: inline-block;
@@ -298,9 +296,14 @@ table {
   border-spacing: 0;
 }
 
+@page {
+  size: auto;
+  margin: 20mm 0 10mm 0;
+}
 body.pdf {
   color: black;
   font-size: 20px;
+  padding: 1.5em 0.5em;
 }
 body.pdf a {
   text-decoration: none;
@@ -317,9 +320,6 @@ body.pdf .container {
 body.pdf .resume {
   position: relative;
   padding: 10px 12px;
-}
-body.pdf .sidebar {
-  order: 1;
 }
 body.pdf .main,
 body.pdf #header,
@@ -339,12 +339,14 @@ body.pdf h2 {
   font-style: italic;
   font-weight: normal;
 }
-body.pdf h3 {
-  font-style: normal;
-}
 body.pdf #contact a {
   color: black;
   font-size: 1.25em;
+}
+body.pdf #skills ~ h4 {
+  border-bottom: 1px solid var(--color-primary);
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
 }
 body.pdf #experience ~ p,
 body.pdf #experience ~ ul {
@@ -354,7 +356,7 @@ body.pdf #experience ~ ul {
 }
 body.pdf #experience ~ p,
 body.pdf #experience ~ ul {
-  font-size: 1em;
+  font-size: 0.98em;
 }
 body.pdf #experience ~ dl {
   font-size: 1em;
@@ -367,6 +369,9 @@ body.pdf #experience ~ dl dd {
   page-break-after: avoid;
   page-break-before: avoid;
   page-break-inside: avoid;
+}
+body.pdf #experience ~ dl dd p {
+  font-size: 1.1em;
 }
 
 .clearfix {
@@ -419,16 +424,6 @@ ul dl dt {
 #summary,
 #footer {
   padding: 0 2em;
-}
-a[href$='.pdf'] {
-  background: #666;
-  color: white;
-  padding: 6px 12px;
-  margin-bottom: 6px;
-  text-decoration: none;
-  position: absolute;
-  top: 15px;
-  right: 25px;
 }
 hr {
   display: block;
@@ -528,6 +523,7 @@ dl {
   display: inline-block;
   margin: 0;
   padding: 0;
+  width: 65%;
 }
 dl dt {
   margin: 0;
@@ -714,27 +710,33 @@ dl em {
 <li>ES6/ES2017</li>
 <li>Grunt</li>
 <li>Gulp</li>
+<li>Perl</li>
 <li>SDLC</li>
 <li>Agile Method</li>
+<li>SCM</li>
 <li>Linux</li>
 </ul>
 
 <h4>Intermediate</h4>
 
 <ul>
+<li>shell</li>
 <li>Vue.js</li>
+<li>Nuxt</li>
 <li>Web Components</li>
 <li>Angular</li>
-<li>Nuxt</li>
-<li>Perl</li>
-<li>bash</li>
 <li>Webpack</li>
 <li>Express</li>
+<li>Unit Tests (Jasmine)</li>
+<li>E2E Tests (Cypress)</li>
 <li>PHP</li>
 <li>MongoDB</li>
-<li>SQL</li>
+<li>MySQL</li>
+<li>MSSQL</li>
+<li>Oracle</li>
 <li>Photoshop</li>
 <li>SEO</li>
+<li>AEM</li>
 <li>WordPress</li>
 </ul>
 
@@ -745,17 +747,8 @@ dl em {
 <li>Docker</li>
 <li>AWS</li>
 <li>Jenkins</li>
+<li>Java</li>
 </ul>
-
-<h3 id="education">EDUCATION</h3>
-
-<dl>
-<dt><h4>B.S., Computer Science</h4></dt>
-<dd>
-<p>California State Polytechnic University
-<em>09/2001 - 08/2006</em></p>
-</dd>
-</dl>
 
 </aside>
 
@@ -771,7 +764,7 @@ dl em {
 </dd>
 </dl>
 
-<p>Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing Vue.js and Nuxt. Design &amp; develop VueJS components to integrate with new and existing applications across the organization.</p>
+<p>Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing latest frontend technology stacks. Design &amp; develop Vue.js components to integrate with new and existing applications across the organization.</p>
 
 <ul>
 <li>Tune and maximize performance of web applications in order to reduce page load time by 30%, while continuing to learn new patterns and best practices</li>
@@ -847,14 +840,7 @@ dl em {
 </dd>
 </dl>
 
-<p>Adjunct faculty for Graphic &amp; Web Design department, with average class size of 12 students.</p>
-
-<ol>
-<li><em>Intro to Programming</em></li>
-<li><em>Intro / Intermediate / Advanced Scripting</em></li>
-<li><em>Intro / Intermediate / Advanced Authoring</em></li>
-<li><em>User Centered Design</em></li>
-</ol>
+<p>Developed and taught 8 courses as an adjunct faculty in the Graphic &amp; Web Design department, with average class size of 12 students.</p>
 
 <dl>
 <dt><h4>Owner | IT Engineer | Software Developer</h4></dt>
@@ -864,7 +850,7 @@ dl em {
 </dd>
 </dl>
 
-<p>Everything Just Works, LLC focused on giving computer users a one-on-one interaction with computer repair gurus.  You should be able to understand your computer and have the best experience possible.  We want to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren&#8217;t stuck paying someone to recover their data.</p>
+<p>Everything Just Works, LLC focused on giving computer users a one-on-one interaction with computer repair gurus. I wanted to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren&#8217;t stuck paying someone to recover their data. Worked as a software consultant developing custom WordPress integrations for 5 clients.</p>
 
 <ul>
 <li>Built custom website for Realty Company that would allow users to search for houses based on a given MLS listing.
@@ -875,7 +861,6 @@ dl em {
 <li>Developed custom JavaScript algorithm with Google Maps API to calculate distances between multiple addresses</li>
 <li>Built custom jQuery plugin to generate tabular data records</li>
 </ul></li>
-<li>Developed the “Conditional Questions” add-on using PHP &amp; jQuery for the Event Espresso WordPress plugin.</li>
 <li>Diagnosed and repaired local and small business websites that use WordPress.</li>
 <li>Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) and/or client requests.</li>
 <li>Eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.</li>
@@ -938,6 +923,16 @@ dl em {
 </dl>
 
 <p>Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.</p>
+
+<h3 id="education">EDUCATION</h3>
+
+<dl>
+<dt><h4>B.S., Computer Science</h4></dt>
+<dd>
+<p>California State Polytechnic University
+<em>09/2001 - 08/2006</em></p>
+</dd>
+</dl>
 
 </section>
 
