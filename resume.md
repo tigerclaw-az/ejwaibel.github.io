@@ -88,13 +88,14 @@ Principal frontend engineer/architect responsible for building and maintaining 1
 
 Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.
 
+------
+
 #### Lead JavaScript Engineer | Senior Web Developer
 : General Motors IT - Global Brands
   *07/2014 - 04/2018*
 
 Started as an individual contributor migrating 3rd party web applications into GM ecosystem. Promoted to Principal UI Engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites.
 
-* Arhitected JavaScript web components solution with jQuery & TerrificJS called "AtomicJS"
 * Lead team of 15+ developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries
 * Implemented solution for functional website integration of social media, Google analytics, and SEO within AEM infrastructure
 * Analyzed performance of brand sites and executed plan to increase initial page load time by 30% and decrease asset sizes by 25%
@@ -111,13 +112,10 @@ Started as an individual contributor migrating 3rd party web applications into G
 : iTRACS / Commscope
   *09/2012 - 07/2014*
 
-Individual contributor responsible for the construction and implementation of an enterprise class web application providing business critical datacenter management solution. Lead developer for design and implementation of customer portal with multiple WordPress instances. Worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
+Individual contributor responsible for the developing and maintaining an enterprise level responsive single-page web application, supported on al major browsers, providing business critical datacenter management solution. I was also given a project and assigned as the lead developer for design and implementation of a customer API portal with multiple WordPress instances. I cooperatively worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.
 
 * Created and deployed 10+ advanced RESTful API interfaces with PHP and SOAP Web Services, which had to support internal and external API requests
-* Developed and maintained a large responsive single-page application supported on all major browsers and mobile devices
-* Extended existing jQuery UI widgets with custom component widgets
 * Performed Subversion and Git operations within a development and production environment
-* Assisted in managing Git merge requests with multiple developers and branches through Gitlab
 * Managed product enhancements and defects in a time-senstitive and high pressure agile development process with monthly production releases
 * Coordinated with QA to release the initial version of customer-facing single-page web application on time with a team of 3 web developers and 2 web designers.
 
@@ -131,52 +129,32 @@ Developed and taught 8 courses as an adjunct faculty in the Graphic & Web Design
 : Everything Just Works, LLC
   *05/2010 - 10/2013*
 
-Everything Just Works, LLC focused on giving computer users a one-on-one interaction with computer repair gurus. I wanted to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren't stuck paying someone to recover their data. Worked as a software consultant developing custom WordPress integrations for 5 clients.
-
-* Built custom website for Realty Company that would allow users to search for houses based on a given MLS listing.
-  * PHP application with IIS 7.5 and Microsoft SQL 2008 database
-  * Object Oriented PHP5 from scratch with IIS 7.5 and MSSQL 2008 integration.
-  * Developed custom JavaScript algorithm with Google Maps API to calculate distances between multiple addresses
-  * Built custom jQuery plugin to generate tabular data records
-* Diagnosed and repaired local and small business websites that use WordPress.
-* Improved and resolved problems for WordPress websites with custom PHP, jQuery, CSS, and HTML due to incompatible WordPress theme(s) and/or client requests.
-* Eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.
+* As an Owner and for Everything Just Works, LLC I wanted to empower individuals to use the computer to its full potential and be aware of the problems that can arise so that they aren't stuck paying someone to recover their data. I also eradicated viruses and malware from infected computers after performing necessary troubleshooting techniques.
+* In my Software Developer role I consulted with 5 clients to develop custom WordPress integrations. I was also contracted with a long-term project for building a custom web application for a Realty Company that would allow users to search for houses based on a given MLS listing. The tools used for this project were: HTML5, CSS3, JavaScript, jQuery, Object Oriented PHP5 (no framework), IIS 7.5, MSSQL 2008, Google Maps API
 
 #### Software Developer
 : Insight Global, Contract w/Level 3 Communications
   *07/2012 - 10/2012*
 
-* Developed the internal website on Apache server for network planners using Perl Mason, HTML5, JavaScript, jQuery, and CSS3.
-* Configured and administered Bugzilla installation on Linux CentOS server for customer required bug tracking system.
-* Provided multiple Perl script reports that would run on a daily/weekly cron job and generate custom Excel spreadsheets for client.
-* Created custom internal Perl modules to help with database connections, common utility functions, and Excel spreadsheet customization.
+As a Software Developer contractor I was tasked to design & develop an internal website for network planners that was built on top of an Apache server with HTML5, JavaScript, jQuery, and CSS3. I was also in charge of configuring and administering the Bugzilla installation on Linux CentOS server for the customer required bug tracking system. I developed internal Perl modules for enhancing database connections, combining common utility functions, and extracting Excel spreadsheet customizations.
 
 #### Systems Engineer
 : APEX Systems, Contract w/Wells Fargo
   *10/2011 - 06/2012*
 
-* Developed Perl script that would run as a daemon to search specific directories for files.
-* Customized in-house Perl modules for better functionality and maintainability.
-* Extended Perl scripts to help automate tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel.
-* Enhanced current scripts to include the use of Log::Log4Perl in order to generate log files for all output in order to verify steps were completed successfully.
-* Provided multi-level support to the Customer Care team and employees that worked directly with Wells Fargo Wholesale customers.
+As a Systems Engineer contractor, I was assigned the development of 15 customized in-house Perl modules for automating highly critical financial processes. I extended Perl scripts to support automation tasks across 15 UNIX Solaris and Linux servers, including threads that would run commands on specified servers in parallel. Provided multi-level support to the Customer Care team, located worldwide, and employees that worked directly with Wells Fargo Wholesale customers.
 
 #### Software Developer | SCM Consultant
 : A Better Solution, Inc.
   *04/2007 - 06/2011*
 
-* Implemented Perl scripts to help developers integrate with ClearCase more seamlessly.
-* Developed Perl modules for custom ClearCase functionality within our scripts. This allowed to easily and quickly building Perl scripts for custom ClearCase interaction.
-* Ensured project builds and releases performed efficiently and correctly through the use of IBM Rational BuildForge.
-* Produced automated build scripts using Perl and shell programming.
-* Administered UNIX & Windows machines for the IT group whenever necessary.
-* Provided first level technical assistance to end users including, but not limited to: replicating errors, resolving application issues, and investigating errors.
+Working as an SCM Consultant I integrated the tools developed by A Better Solution with existing ClearCase configurations to produce automated SCM processes and procedures. I implemented over 100 Perl scripts and applications to support developers integration with ClearCase, ensured project builds and releases performed efficiently and correctly through the use of IBM Rational BuildForge, produced automated build scripts using Perl and shell programming, and provided first level technical assistance to end users including, but not limited to: replicating errors, resolving application issues, and investigating errors.
 
 #### Jr. PHP Developer
 : BlueHornet.com
   *09/2006 - 04/2007*
 
-Junior PHP developer helping to enhance the existing web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.
+As a junior PHP developer, I enhanced the existing client email web application with custom Object Oriented code for quicker development and easier maintainability. Coordinated with the graphic design team and integrated Photoshop layouts using HTML, JavaScript, and CSS. Documented new features thoroughly for use with customer support documentation.
 
 ### EDUCATION {#education}
 
@@ -188,6 +166,4 @@ Junior PHP developer helping to enhance the existing web application with custom
 
 <footer id="footer" markdown="1">
 Erik Waibel -- [480-331-1899](tel:+14803311899) -- [ejwaibel+resume@gmail.com](mailto:ejwaibel+resume@gmail.com)
-
-> *Generated from Markdown with: [https://github.com/there4/markdown-resume](https://github.com/there4/markdown-resume)
 </footer>
