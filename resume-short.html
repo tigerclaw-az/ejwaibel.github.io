@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+            crossorigin="anonymous"
+        />
+        <title> | </title>
+        <style type="text/css">
+            :root {
+  --color-gray-10: #F1F3F6;
+  --color-gray-20: #CED0D4;
+  --color-gray-30: #A0A5AB;
+  --color-gray-40: #727981;
+  --color-gray-50: #414C58;
+  --color-gray-60: #24282F;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-green: #64BB53;
+  --color-red: #FB434D;
+  --color-orange: #F48248;
+  --color-yellow: #FCB748;
+  --color-blue: #09AFD6;
+  --color-primary: var(--color-blue);
+  --color-primary-hover: #75AEBD;
+  --color-danger: var(--color-red);
+  --color-success: var(--color-green);
+  --color-warning: var(--color-orange);
+  --disabled-color: var(--color-gray-30);
+  --disabled-bg: var(--color-gray-10);
+}
+
+.icon::before {
+  color: var(--color-primary);
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  margin-right: 8px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.icon--email::before {
+  content: "\f0e0";
+}
+.icon--github::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f09b";
+}
+.icon--linkedin::before {
+  font-family: "Font Awesome 5 Brands";
+  font-weight: 400;
+  content: "\f0e1";
+}
+.icon--location::before {
+  content: "\f3c5";
+}
+.icon--phone::before {
+  content: "\f095";
+}
+
+@page {
+  size: auto;
+  margin: 20mm 0 10mm 0;
+}
+body.pdf {
+  color: black;
+  font-size: 20px;
+  padding: 1.5em 0.5em;
+}
+body.pdf a {
+  text-decoration: none;
+  color: black;
+}
+body.pdf .container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  border: 0;
+  text-align: left;
+}
+body.pdf .resume {
+  position: relative;
+  padding: 10px 12px;
+}
+body.pdf .main,
+body.pdf #header,
+body.pdf #summary,
+body.pdf #footer {
+  padding: 0;
+}
+body.pdf h1 {
+  letter-spacing: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+body.pdf h2 {
+  letter-spacing: 0;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+}
+body.pdf #contact a {
+  color: black;
+  font-size: 1.25em;
+}
+body.pdf #skills ~ h4 {
+  border-bottom: 1px solid var(--color-primary);
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+body.pdf #experience ~ p,
+body.pdf #experience ~ ul {
+  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+}
+body.pdf #experience ~ p,
+body.pdf #experience ~ ul {
+  font-size: 0.98em;
+}
+body.pdf #experience ~ dl {
+  font-size: 0.95em;
+  page-break-after: avoid;
+  page-break-before: auto;
+  page-break-inside: avoid;
+}
+body.pdf #experience ~ dl dd {
+  font-size: inherit;
+  page-break-after: avoid;
+  page-break-before: avoid;
+  page-break-inside: avoid;
+  width: 1800px !important;
+}
+body.pdf #experience ~ dl dd p {
+  font-size: 1.05em;
+}
+
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: var(--color-gray-60);
+}
+h1,
+h2,
+h3,
+h4,
+ul dl dt {
+  font-family: Roboto, "Century Gothic", AppleGothic, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0;
+  background: #ffffed;
+  border: solid var(--color-gray-50);
+  border-width: 8px 0 4px 0;
+  text-align: left;
+}
+.resume {
+  position: relative;
+  padding: 0.75em 0 0;
+}
+.header h2 {
+  font-style: italic;
+}
+.main {
+  margin-top: 1em;
+}
+.sidebar {
+  float: right;
+  margin-left: 1.75em;
+  width: 30%;
+}
+.main,
+#header,
+#summary,
+#footer {
+  padding: 0 2em;
+}
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: 0;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: var(--color-primary);
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h2 {
+  color: #aaa;
+  margin: 0;
+  padding: 0;
+  font-size: 1.75em;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+h3 {
+  color: var(--color-primary);
+  margin: 0;
+  padding: .25em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+h3+p,
+h3~ul {
+  margin: .2em 0 1.2em;
+  padding: 0;
+  display: block;
+  font-size: 1em;
+  line-height: 1.5;
+}
+h3~ul {
+  padding-left: 1.5em;
+}
+h4 {
+  font-size: 1em;
+  margin: 0;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+ul li ul li,
+ol li ul li {
+  font-style: italic;
+  margin: 0 0 0 1.5em;
+  width: 80%;
+}
+ul dl {
+  margin: .3em 0 0;
+  padding: 0;
+  width: 100%;
+}
+ul dl dd {
+  padding: 0 2em 0 0;
+  font-size: .8em;
+  line-height: 1.5em;
+}
+ol {
+  margin: 0;
+  margin-left: 1em;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+ol li {
+  margin: 0 0 0 .5em;
+  padding: 0;
+  border-top: 1px solid #CCCCCC;
+  width: 100%;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+ol li:nth-child(1) {
+  border-top: 0;
+}
+dl {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 65%;
+}
+dl dt {
+  margin: 0;
+  padding: 0;
+}
+dl dd {
+  padding: 0;
+  font-size: 0.8em;
+}
+dl strong {
+  display: block;
+  font-size: 1.2em;
+}
+dl em {
+  display: block;
+  font-size: 1.2em;
+  margin: .15em 0 .5em;
+}
+#contact blockquote {
+  align-items: center;
+  border: 2px solid var(--color-gray-60);
+  border-left: 0;
+  border-right: 0;
+  clear: both;
+  display: flex;
+  font-size: 0.75em;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  text-align: center;
+}
+#contact blockquote p {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#contact blockquote a {
+  color: var(--color-gray-50);
+  display: inline;
+  flex: 1 0 50%;
+  margin: 0.25em 0;
+}
+#skills ~ ul {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+#skills ~ ul li {
+  background-color: var(--color-gray-10);
+  border-radius: 0.5em;
+  margin-bottom: 0.25em;
+  padding: 0.5em;
+}
+#experience ~ dl,
+#education ~ dl {
+  margin-bottom: 0.5em;
+}
+#experience ~ dl dt,
+#education ~ dl dt {
+  margin-top: 0.5em;
+}
+#experience ~ dl dt h4,
+#education ~ dl dt h4 {
+  font-size: 1.4em;
+}
+#experience ~ dl dd,
+#education ~ dl dd {
+  font-size: 1.1em;
+  margin-left: 0;
+  width: 980px;
+}
+#experience ~ dl dd p,
+#education ~ dl dd p {
+  margin: 0;
+}
+#experience ~ dl dd em,
+#education ~ dl dd em {
+  color: var(--color-gray-50);
+  font-size: 0.9em;
+}
+#experience ~ p,
+#education ~ p {
+  font-size: 0.95em;
+  margin-top: 0;
+}
+#experience ~ ul,
+#education ~ ul {
+  font-size: 0.95em;
+}
+#experience ~ ol li,
+#education ~ ol li {
+  border: 0;
+  font-size: 0.9em;
+}
+#experience ~ dl dd p {
+  display: flex;
+  justify-content: space-between;
+}
+#footer {
+  border-top: 1px solid var(--color-gray-40);
+  font-size: 0.75em;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 15em) {
+  .sidebar {
+    order: 0;
+  }
+}
+@media screen and (min-width: 37.5em) {
+  h1 {
+    margin-top: .5em;
+  }
+  ol {
+    margin: 0 0 0 1em;
+  }
+  ol li {
+    width: 50%;
+    margin: 0;
+  }
+  ol li:nth-child(1),
+  ol li:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 57em) {
+  .sidebar {
+    order: 1;
+  }
+}
+
+        </style>
+    </head>
+
+    <body class="">
+        <div class="container">
+            <div class="resume"><header id="header">
+
+<h1>Erik Waibel</h1>
+
+<h2>Senior Project Engineer</h2>
+
+</header>
+
+<section id="summary">
+
+<p>As a passionate and self-motivated Senior Frontend Engineer, I am able to think outside the box and willing to research and explore new avenues to overcome obstacles by utilizing the latest technologies and standards. I have 5+ years experience in creating production-ready web applications, with a focus on the latest frontend technologies. I&#8217;ve helped reduce our team&#8217;s development time by 20% with implementation of Git flow methodology and best practices. I can take control of requirements and build relationships with multiple owners of the product.</p>
+
+</section>
+
+<section id="contact">
+
+<blockquote>
+  <p><a href="mailto:ejwaibel@ra.rockwell.com" title="" class="icon icon--email">ejwaibel@ra.rockwell.com</a>
+  <a href="https://www.github.com/ejwaibel" title="" class="icon icon--github">https://www.github.com/ejwaibel</a>
+  <a href="tel:14803311899" title="" class="icon icon--phone">+1 480-331-1899</a>
+  <a href="https://www.linkedin.com/in/ejwaibel" title="" class="icon icon--linkedin">https://www.linkedin.com/in/ejwaibel</a></p>
+</blockquote>
+
+</section>
+
+<section class="main">
+
+<section class="content">
+
+<h3 id="experience">WORK EXPERIENCE</h3>
+
+<dl>
+<dt><h4>Sr. Project Engineer</h4></dt>
+<dd>
+<p>Rockwell Automation
+<em>04/2019 - Present</em></p>
+</dd>
+</dl>
+
+<p>Software engineer developing industry-leading commercial software known for its innovation and usability.
+Responsible for performing intermediate level software testing tasks.</p>
+
+<ul>
+<li>Develop and modify Angular code required to complete assigned stories, across multiple Git repos</li>
+<li>Coordinate efforts for project planning with Project Owner, Scrum Master, and Team Lead</li>
+<li>Ensure products meet requirements and are within total quality management standards.</li>
+<li>Collect, contribute, and document requirements for features and ensure the information required for
+the development of code and corresponding test cases are within specifications</li>
+<li>Collaborate with multiple global cross-functional teams and lead efforts for small objectives
+within the team</li>
+<li>Lead and participate in reviews of documents, designs, code, test cases, and user requirements</li>
+<li>Actively seek knowledge of new developments in the frontend developer space and test automation</li>
+</ul>
+
+<dl>
+<dt><h4>Lead Frontend Engineer</h4></dt>
+<dd>
+<p>iRELO
+<em>04/2018 - 04/2019</em></p>
+</dd>
+</dl>
+
+<p>Principal frontend engineer/architect responsible for building and maintaining 10 single page web applications utilizing latest frontend technology stacks. Design &amp; develop Vue.js components to integrate with new and existing applications across the organization.</p>
+
+<ul>
+<li>Integration of Segment analytics and VWO A/B testing</li>
+<li>Tune and maximize performance of web applications in order to reduce page load time by 30%, while continuing to learn new patterns and best practices</li>
+<li>Utilized Webpack build integration to perform JavaScript compilation and minification for all frontend development, which reduced final asset sizes by 80%</li>
+<li>Interface with design team and ensure provided assets and layout will conform with best practices for responsive &amp; mobile first</li>
+<li>Coordinate with PM in Asana utilizing an agile process to ensure all bugs &amp; features are completed on time</li>
+<li>Developed custom eslint and stylelint configurations for inclusion with all company projects</li>
+<li>Organized Git standardization and process through Gitlab, while training and supporting developers</li>
+<li>Produced Git CLI script to generate automatic changelog and Gitlab release</li>
+<li>Integrated latest JavaScript standards and ES2017 features</li>
+</ul>
+
+<dl>
+<dt><h4>Adjunct Faculty</h4></dt>
+<dd>
+<p>Chandler Gilbert Community College
+<em>01/2018 - Present</em></p>
+</dd>
+</dl>
+
+<p>Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.
+<br/>
+<br/>
+<br/>
+<br/></p>
+
+<dl>
+<dt><h4>Senior JavaScript Engineer</h4></dt>
+<dd>
+<p>General Motors IT - Global Brands
+<em>07/2014 - 04/2018</em></p>
+</dd>
+</dl>
+
+<p>Started as an individual contributor migrating 3rd party web applications into GM ecosystem. Promoted to Principal UI Engineer responsible for end to end feature enablement across the UI layer, and the integration of UI into the broader ecosystem of General Motors brand websites. Increased EBIT by 30% while leading a team of 15+ software developers to a successful global production release for General Motors European brand sites.</p>
+
+<ul>
+<li>Lead team of 15+ developers to deliver 65 custom AEM components for the European brands release, which reached 20 different countries</li>
+<li>Implemented solution for functional website integration of social media, Google analytics, and SEO within AEM infrastructure</li>
+<li>Analyzed performance of brand sites and executed plan to increase initial page load time by 30% and decrease asset sizes by 25%</li>
+<li>Applied CSS3 styles to modular components based on PSD styleguides</li>
+<li>Produced multiple angular applications for inclusion into a Bootstrap/Foundation framework</li>
+<li>Designed solution for custom SCSS inheritance to accomodate multiple shared projects</li>
+<li>Designed solution for internal Gulp build process and provided enhancements based on project challenges, which helped decrease build time by 2 hours</li>
+<li>Triaged bugs on a daily basis to ensure issues are resolved in time for production release</li>
+<li>Coordinated with business and design teams to ensure proper requirements for new features</li>
+<li>Researched advanced CSS &amp; JavaScript techniques to implement latest browser features and enhance the customer&#8217;s experience</li>
+<li>Performed Subversion and Git operations within a development and production environment</li>
+</ul>
+
+<dl>
+<dt><h4>Software Engineer II</h4></dt>
+<dd>
+<p>iTRACS / Commscope
+<em>09/2012 - 07/2014</em></p>
+</dd>
+</dl>
+
+<p>Individual contributor responsible for the developing and maintaining an enterprise level responsive single-page web application, supported on al major browsers, providing business critical datacenter management solution. I was also given a project and assigned as the lead developer for design and implementation of a customer API portal with multiple WordPress instances. I cooperatively worked closely with team members in an agile environment to ensure implementation of features/functionality conform to release/business objectives.</p>
+
+<ul>
+<li>Created and deployed 10+ advanced RESTful API interfaces with PHP and SOAP Web Services, which had to support internal and external API requests</li>
+<li>Performed Subversion and Git operations within a development and production environment</li>
+<li>Managed product enhancements and defects in a time-senstitive and high pressure agile development process with monthly production releases</li>
+<li>Coordinated with QA to release the initial version of customer-facing single-page web application on time with a team of 3 web developers and 2 web designers.</li>
+</ul>
+
+<hr />
+
+<h3 id="education">EDUCATION</h3>
+
+<dl>
+<dt><h4>B.S., Computer Science</h4></dt>
+<dd>
+<p>California State Polytechnic University
+<em>09/2001 - 08/2006</em></p>
+</dd>
+</dl>
+
+</section>
+
+</section>
+
+<footer id="footer">
+
+<p>Erik Waibel &#8212; <a href="tel:+14803311899">480-331-1899</a> &#8212; <a href="mailto:ejwaibel@ra.rockwell.com">ejwaibel@ra.rockwell.com</a></p>
+
+</footer>
+</div>
+        </div>
+    </body>
+</html>
