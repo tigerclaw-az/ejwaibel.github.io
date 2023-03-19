@@ -84,7 +84,7 @@ Principal frontend engineer/architect responsible for building and maintaining 1
 
 #### Adjunct Faculty
 : Chandler Gilbert Community College
-  *01/2018 - Present*
+  *01/2018 - 05/2021*
 
 Develop and teach 3 courses as an adjunct faculty in the Computer Information Systems department with a focus on web development integrating HTML5, CSS3, and JavaScript.
 
